@@ -12,20 +12,107 @@
     <session id="-734369465">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="208" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="208" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/SpeedChange.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SwitchMovePattern.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="105">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding>
+                <marker date="1548901788378" expanded="false" signature="6:78" ph="..." />
+                <marker date="1548901788378" expanded="true" signature="131:192" ph="{...}" />
+                <marker date="1548901788378" expanded="true" signature="181:190" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding>
+                <marker date="1548904440950" expanded="false" signature="6:78" ph="..." />
+                <marker date="1548904440950" expanded="true" signature="121:355" ph="{...}" />
+                <marker date="1548904440950" expanded="true" signature="199:264" ph="{...}" />
+                <marker date="1548904440950" expanded="true" signature="288:353" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/PerpetualData/MovePatternDual.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1542685642209" expanded="false" signature="6:110" ph="..." />
+                <marker date="1542685642209" expanded="true" signature="203:598" ph="{...}" />
+                <marker date="1542685642209" expanded="true" signature="313:596" ph="{...}" />
+                <marker date="1542685642209" expanded="true" signature="345:381" ph="{...}" />
+                <marker date="1542685642209" expanded="true" signature="388:569" ph="{...}" />
+                <marker date="1542685642209" expanded="true" signature="437:550" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/PerpetualData/MovePatternNotGrounded.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1542685642209" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542685642209" expanded="true" signature="185:315" ph="{...}" />
+                <marker date="1542685642209" expanded="true" signature="268:313" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/PerpetualData/MovePattern.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1542685642214" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542685642214" expanded="true" signature="179:1046" ph="{...}" />
+                <marker date="1542685642214" expanded="true" signature="458:581" ph="{...}" />
+                <marker date="1542685642214" expanded="true" signature="499:548" ph="{...}" />
+                <marker date="1542685642214" expanded="true" signature="638:748" ph="{...}" />
+                <marker date="1542685642214" expanded="true" signature="794:1044" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,9 +120,21 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/SpeedChange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PerpetualData/MovePatternDual.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PerpetualData/MovePatternNotGrounded.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwitchMovePattern.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PerpetualData/MovePattern.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/SwitchMovePattern.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -46,13 +145,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -96,11 +204,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548889274494</updated>
       <workItem from="1548889281718" duration="607000" />
+      <workItem from="1548892788531" duration="766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="607000" />
+    <option name="totallyTimeSpent" value="1373000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -113,18 +222,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="20" width="1400" height="776" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -132,12 +234,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
@@ -153,10 +263,72 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/SpeedChange.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/SpeedChange.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/FloatData/MovePattern.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/FloatData/MovePatternDual.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/FloatData/MovePatternNotGrounded.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/FloatData/StringData.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/PerpetualData/MovePatternNotGrounded.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state>
+          <folding>
+            <marker date="1542685642209" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542685642209" expanded="true" signature="185:315" ph="{...}" />
+            <marker date="1542685642209" expanded="true" signature="268:313" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PerpetualData/MovePatternDual.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1542685642209" expanded="false" signature="6:110" ph="..." />
+            <marker date="1542685642209" expanded="true" signature="203:598" ph="{...}" />
+            <marker date="1542685642209" expanded="true" signature="313:596" ph="{...}" />
+            <marker date="1542685642209" expanded="true" signature="345:381" ph="{...}" />
+            <marker date="1542685642209" expanded="true" signature="388:569" ph="{...}" />
+            <marker date="1542685642209" expanded="true" signature="437:550" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PerpetualData/MovePattern.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1542685642214" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542685642214" expanded="true" signature="179:1046" ph="{...}" />
+            <marker date="1542685642214" expanded="true" signature="458:581" ph="{...}" />
+            <marker date="1542685642214" expanded="true" signature="499:548" ph="{...}" />
+            <marker date="1542685642214" expanded="true" signature="638:748" ph="{...}" />
+            <marker date="1542685642214" expanded="true" signature="794:1044" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <marker date="1548904440950" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548904440950" expanded="true" signature="121:355" ph="{...}" />
+            <marker date="1548904440950" expanded="true" signature="199:264" ph="{...}" />
+            <marker date="1548904440950" expanded="true" signature="288:353" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SwitchMovePattern.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <marker date="1548901788378" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548901788378" expanded="true" signature="131:192" ph="{...}" />
+            <marker date="1548901788378" expanded="true" signature="181:190" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
