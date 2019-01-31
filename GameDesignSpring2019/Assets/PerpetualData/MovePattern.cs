@@ -11,7 +11,7 @@ public class MovePattern : ScriptableObject {
     protected Vector3 moveDirection;
     private Vector3 rotDirection;
 
-    public virtual void Invoke(CharacterController controller, Transform transform)
+    public virtual void Call(CharacterController controller, Transform transform)
     {
         if (controller.isGrounded)
         {
