@@ -18,6 +18,9 @@
         <e p="Scripts" t="Include">
           <e p="CameraFollow.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
+          <e p="MatchID.cs" t="Include" />
+          <e p="NameID.cs" t="Include" />
+          <e p="ObjectID.cs" t="Include" />
           <e p="SwitchMovePattern.cs" t="Include" />
         </e>
       </e>
