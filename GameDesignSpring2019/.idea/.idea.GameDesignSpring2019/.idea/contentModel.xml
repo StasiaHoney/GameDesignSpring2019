@@ -16,6 +16,7 @@
           <e p="StringData.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="AIAgent.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="MatchID.cs" t="Include" />
