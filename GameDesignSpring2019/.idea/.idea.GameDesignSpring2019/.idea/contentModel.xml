@@ -22,7 +22,6 @@
           <e p="MatchID.cs" t="Include" />
           <e p="NameID.cs" t="Include" />
           <e p="ObjectID.cs" t="Include" />
-          <e p="SwitchMovePattern.cs" t="Include" />
         </e>
       </e>
       <e p="GameDesignSpring2019.sln" t="IncludeFlat" />

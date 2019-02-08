@@ -4,12 +4,19 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "MovePattern/MovePattern")]
 public class MovePattern : ScriptableObject {
     
-    public FloatData gravity;
+    public FloatData Gravity;
+
     public FloatData MoveX, MoveY, MoveZ;
-    public FloatData Rotx, Roty, Rotyz;
-    
-    protected Vector3 moveDirection;
+    public FloatData RotX, RotY, RotZ;
+	
+    protected Vector3 MoveDirection;
     private Vector3 rotDirection;
+
+    private void OnEnable()
+    {
+        MoveDirection = Vector3.zero;
+        rotDirection = Vector3.zero;
+    }
 
     public virtual void Call(CharacterController controller, Transform transform)
     {
@@ -20,18 +27,18 @@ public class MovePattern : ScriptableObject {
 
         Move(controller);
     }
+	
+    protected void Move(Transform transform)
+    {
+        MoveDirection.Set(MoveX.Value, MoveY.Value, MoveZ.Value);
+        rotDirection.Set(RotX.Value, RotY.Value, RotZ.Value);
+        transform.Rotate(rotDirection);
+        MoveDirection = transform.TransformDirection(MoveDirection);
+    }
 
     protected void Move(CharacterController controller)
     {
-        moveDirection.y = gravity.Value;
-        controller.Move(moveDirection * Time.deltaTime);
-    }
-
-    protected void Move(Transform transform)
-    {
-        moveDirection.Set(MoveX.Value, MoveY.Value, MoveZ.Value);
-        rotDirection.Set(Rotx.Value, Roty.Value, Rotyz.Value);
-        transform.Rotate(rotDirection);
-        moveDirection = transform.TransformDirection(moveDirection);
+        MoveDirection.y = Gravity.Value;
+        controller.Move(MoveDirection * Time.deltaTime);
     }
 }
