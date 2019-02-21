@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Door.ma
-//Last modified: Thu, Feb 21, 2019 02:23:16 PM
+//Last modified: Thu, Feb 21, 2019 02:24:08 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -1797,9 +1797,9 @@ createNode mesh -n "DoorKnobShape" -p "DoorKnob";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".ai_translator" -type "string" "polymesh";
-createNode transform -n "pCube1";
+createNode transform -n "Frame";
 	rename -uid "41A81483-4C9D-6E6C-4B1B-5CB9F19D4841";
-createNode mesh -n "pCubeShape1" -p "pCube1";
+createNode mesh -n "FrameShape" -p "Frame";
 	rename -uid "51DAAB87-4295-FA75-1C60-68A492BDBC75";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -2042,5 +2042,5 @@ connectAttr "lambert2.msg" "materialInfo1.m";
 connectAttr "DoorSG.pa" ":renderPartition.st" -na;
 connectAttr "lambert2.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
-connectAttr "pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
+connectAttr "FrameShape.iog" ":initialShadingGroup.dsm" -na;
 // End of Door.ma
