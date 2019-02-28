@@ -11,10 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09b07a1bf01b7b049bf70a461db07428, type: 3}
   m_Name: Standard
   m_EditorClassIdentifier: 
-  Gravity: {fileID: 0}
-  MoveX: {fileID: 11400000, guid: 5191952c979865c4a8d6ce2dba488af1, type: 2}
-  MoveY: {fileID: 11400000, guid: 8ba01de48dbb9b24e839fd38968da085, type: 2}
-  MoveZ: {fileID: 11400000, guid: 3945e1720ef0f1943b5f5a94bfa87286, type: 2}
-  RotX: {fileID: 0}
-  RotY: {fileID: 0}
-  RotZ: {fileID: 0}
+  Gravity: {fileID: 11400000, guid: e8612f20ce4312649a84912ea50ef9d7, type: 2}
+  MoveX: {fileID: 11400000, guid: 3945e1720ef0f1943b5f5a94bfa87286, type: 2}
+  MoveY: {fileID: 11400000, guid: 577723b74f39852498091931c16b82f0, type: 2}
+  MoveZ: {fileID: 11400000, guid: 5191952c979865c4a8d6ce2dba488af1, type: 2}
+  RotX: {fileID: 11400000, guid: 3945e1720ef0f1943b5f5a94bfa87286, type: 2}
+  RotY: {fileID: 11400000, guid: 3945e1720ef0f1943b5f5a94bfa87286, type: 2}
+  RotZ: {fileID: 11400000, guid: 3945e1720ef0f1943b5f5a94bfa87286, type: 2}
