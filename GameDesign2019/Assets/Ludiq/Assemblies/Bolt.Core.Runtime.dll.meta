@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: c8d0ad23af520fe46aabe2b1fecf6462
+timeCreated: 1516897541
+licenseType: Store
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -16,10 +18,8 @@ PluginImporter:
     Bolt.VariablesSaver: {fileID: 2800000, guid: bfbec52c9bed7cd4083c801c08f15aaa,
       type: 3}
   executionOrder: {}
-  defineConstraints: []
   isPreloaded: 0
   isOverridable: 0
-  isExplicitlyReferenced: 0
   platformData:
   - first:
       Android: Android
