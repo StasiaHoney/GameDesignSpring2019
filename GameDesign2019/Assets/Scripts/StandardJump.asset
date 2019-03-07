@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94c59ebf410a1bf4d88539ffc2dc09a5, type: 3}
   m_Name: StandardJump
   m_EditorClassIdentifier: 
-  Speed: 30
-  JumpForce: 1.5
+  Speed: 20
+  JumpForce: 0.8
   Gravity: -3
