@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: DemonStandard
   m_EditorClassIdentifier: 
   Speed: 30
-  JumpForce: 1.5
-  Gravity: -3
+  JumpForce: 0
+  Gravity: -9.81
+  player: {x: 0, y: 0, z: 0}

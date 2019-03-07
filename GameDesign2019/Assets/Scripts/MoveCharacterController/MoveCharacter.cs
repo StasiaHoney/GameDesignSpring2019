@@ -5,8 +5,6 @@ using UnityEngine.Events;
  [RequireComponent (typeof(CharacterController))]
 public class MoveCharacter : MonoBehaviour
 {
-   
-    public UnityEvent OnGrounded, OffGrounded;
     public MoveBase CharacterMover;
     private CharacterController controller;
 
@@ -17,15 +15,6 @@ public class MoveCharacter : MonoBehaviour
 
     private void Update()
     {
-        if (controller.isGrounded)
-        {
-            OnGrounded.Invoke();
-        }
-        else
-        {
-            OffGrounded.Invoke();
-        }
-
         CharacterMover.Move(controller);
     }
 }
