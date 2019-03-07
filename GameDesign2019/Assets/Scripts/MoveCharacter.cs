@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 public class MoveCharacter : MonoBehaviour
 {
+    RequireComponent CharacterController;
     public UnityEvent OnGrounded, OffGrounded;
     public MoveBase CharacterMover;
     private CharacterController controller;

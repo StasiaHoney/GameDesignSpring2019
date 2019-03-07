@@ -94,6 +94,7 @@
           <e p="MoveBase.cs" t="Include" />
           <e p="MoveCharacter.cs" t="Include" />
           <e p="MoveWithAxis.cs" t="Include" />
+          <e p="MoveWithSingleJump.cs" t="Include" />
         </e>
       </e>
       <e p="GameDesign2019.sln" t="IncludeFlat" />
