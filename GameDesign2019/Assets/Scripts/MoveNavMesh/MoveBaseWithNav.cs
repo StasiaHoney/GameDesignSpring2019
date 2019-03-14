@@ -10,5 +10,5 @@ public abstract class MoveBaseWithNav : ScriptableObject
     public float JumpForce = 1.5f;
     public float Gravity = -3;
 
-    public abstract void MoveNav(NavMeshAgent nav);
+    public abstract void MoveNav(NavMeshAgent controller);
 }

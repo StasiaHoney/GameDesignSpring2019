@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7661416d684f01e4684e313265a22952, type: 3}
-  m_Name: DemonStandardNav
+  m_Script: {fileID: 11500000, guid: a6d045eb6ea44594f9dedec77bd0e8fb, type: 3}
+  m_Name: DemonGravity
   m_EditorClassIdentifier: 
-  Speed: 20
+  Speed: 30
   JumpForce: 1.5
-  Gravity: 3
+  Gravity: -5
   player: {x: 0, y: 0, z: 0}

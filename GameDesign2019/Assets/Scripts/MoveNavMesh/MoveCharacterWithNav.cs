@@ -1,21 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
-
-[RequireComponent(typeof(NavMeshAgent))]
+using UnityEngine.Events;
+ [RequireComponent (typeof(CharacterController))]
 public class MoveCharacterWithNav : MonoBehaviour
 {
-    public MoveBaseWithNav CharacterMover;
-    private NavMeshAgent controller;
+    public MoveBase CharacterMover;
+    private CharacterController controller;
 
     private void Start()
     {
-        controller = GetComponent<NavMeshAgent>();
+        controller = GetComponent<CharacterController>();
     }
 
     private void Update()
     {
-       CharacterMover.MoveNav(controller);
+        CharacterMover.Move(controller);
     }
 }
