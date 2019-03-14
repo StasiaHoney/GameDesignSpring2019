@@ -42,7 +42,7 @@
     <session id="1072614455">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
@@ -136,8 +136,80 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <marker date="1552200431470" expanded="false" signature="6:78" ph="..." />
-                <marker date="1552200431470" expanded="true" signature="129:324" ph="{...}" />
+                <marker date="1552423216373" expanded="true" signature="6:100" ph="..." />
+                <marker date="1552423216373" expanded="true" signature="158:342" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveNavMesh/MoveCharacterWithNav.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding>
+                <marker date="1552423216374" expanded="true" signature="6:100" ph="..." />
+                <marker date="1552423216374" expanded="true" signature="192:447" ph="{...}" />
+                <marker date="1552423216374" expanded="true" signature="300:363" ph="{...}" />
+                <marker date="1552423216374" expanded="true" signature="390:445" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveNavMesh/MoveContinuousWithNav.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <marker date="1552423216375" expanded="true" signature="6:100" ph="..." />
+                <marker date="1552423216375" expanded="true" signature="172:385" ph="{...}" />
+                <marker date="1552423216375" expanded="true" signature="264:383" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AI.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <marker date="1552423216369" expanded="true" signature="6:100" ph="..." />
+                <marker date="1552423216369" expanded="true" signature="133:381" ph="{...}" />
+                <marker date="1552423216369" expanded="true" signature="232:290" ph="{...}" />
+                <marker date="1552423216369" expanded="true" signature="317:379" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveRigidbody/MoveCharacterWithRigid.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <marker date="1551992824994" expanded="false" signature="6:78" ph="..." />
+                <marker date="1551992824994" expanded="true" signature="168:421" ph="{...}" />
+                <marker date="1551992824994" expanded="true" signature="275:335" ph="{...}" />
+                <marker date="1551992824994" expanded="true" signature="362:419" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveRigidbody/MoveBaseWithRigid.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <folding>
+                <marker date="1551992887266" expanded="false" signature="6:78" ph="..." />
+                <marker date="1551992887266" expanded="true" signature="138:323" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -238,12 +310,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551990766434</updated>
       <workItem from="1551990770240" duration="3825000" />
-      <workItem from="1552418293619" duration="1484000" />
+      <workItem from="1552418293619" duration="2121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5309000" />
+    <option name="totallyTimeSpent" value="5946000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,11 +448,46 @@
         <state relative-caret-position="120">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
-            <marker date="1552535917626" expanded="false" signature="6:78" ph="..." />
-            <marker date="1552535917626" expanded="true" signature="137:583" ph="{...}" />
-            <marker date="1552535917626" expanded="true" signature="201:581" ph="{...}" />
-            <marker date="1552535917626" expanded="true" signature="283:380" ph="{...}" />
-            <marker date="1552535917626" expanded="true" signature="393:464" ph="{...}" />
+            <marker date="1552423216374" expanded="true" signature="6:100" ph="..." />
+            <marker date="1552423216374" expanded="true" signature="192:447" ph="{...}" />
+            <marker date="1552423216374" expanded="true" signature="300:363" ph="{...}" />
+            <marker date="1552423216374" expanded="true" signature="390:445" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveNavMesh/MoveBaseWithNav.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1552423216373" expanded="true" signature="6:100" ph="..." />
+            <marker date="1552423216373" expanded="true" signature="158:342" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveNavMesh/MoveContinuousWithNav.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1552423216375" expanded="true" signature="6:100" ph="..." />
+            <marker date="1552423216375" expanded="true" signature="172:385" ph="{...}" />
+            <marker date="1552423216375" expanded="true" signature="264:383" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <marker date="1552423216369" expanded="true" signature="6:100" ph="..." />
+            <marker date="1552423216369" expanded="true" signature="133:381" ph="{...}" />
+            <marker date="1552423216369" expanded="true" signature="232:290" ph="{...}" />
+            <marker date="1552423216369" expanded="true" signature="317:379" ph="{...}" />
           </folding>
         </state>
       </provider>
