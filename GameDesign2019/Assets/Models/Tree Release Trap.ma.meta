@@ -1,59 +1,31 @@
 fileFormatVersion: 2
-guid: 440f5e1136f88e34584e56db6f53c40a
+guid: 841bc59362b54db42b0ef43caa28aede
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: polySurface1
-    100004: polySurface10
-    100006: polySurface2
-    100008: polySurface3
-    100010: polySurface4
-    100012: polySurface5
-    100014: polySurface6
-    100016: polySurface7
-    100018: polySurface8
-    100020: polySurface9
-    100022: transform1
-    100024: transform2
-    100026: transform3
-    100028: transform4
-    100030: transform5
-    400000: //RootNode
-    400002: polySurface1
-    400004: polySurface10
-    400006: polySurface2
-    400008: polySurface3
-    400010: polySurface4
-    400012: polySurface5
-    400014: polySurface6
-    400016: polySurface7
-    400018: polySurface8
-    400020: polySurface9
-    400022: transform1
-    400024: transform2
-    400026: transform3
-    400028: transform4
-    400030: transform5
+    100000: pCube10
+    100002: pCube7
+    100004: pCube8
+    100006: pCube9
+    100008: //RootNode
+    400000: pCube10
+    400002: pCube7
+    400004: pCube8
+    400006: pCube9
+    400008: //RootNode
     2100000: lambert1
-    2300000: polySurface10
-    2300002: polySurface2
-    2300004: polySurface3
-    2300006: polySurface5
-    2300008: polySurface7
-    2300010: polySurface9
-    3300000: polySurface10
-    3300002: polySurface2
-    3300004: polySurface3
-    3300006: polySurface5
-    3300008: polySurface7
-    3300010: polySurface9
-    4300000: polySurface3
-    4300002: polySurface5
-    4300004: polySurface7
-    4300006: polySurface9
-    4300008: polySurface10
-    4300010: polySurface2
+    2300000: pCube10
+    2300002: pCube7
+    2300004: pCube8
+    2300006: pCube9
+    3300000: pCube10
+    3300002: pCube7
+    3300004: pCube8
+    3300006: pCube9
+    4300000: pCube7
+    4300002: pCube8
+    4300004: pCube9
+    4300006: pCube10
   externalObjects: {}
   materials:
     importMaterials: 1
