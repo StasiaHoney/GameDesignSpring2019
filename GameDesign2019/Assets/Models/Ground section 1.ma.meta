@@ -19,6 +19,8 @@ ModelImporter:
     100026: transform3
     100028: transform4
     100030: transform5
+    100032: polySurface2 1
+    100034: pPlane1
     400000: //RootNode
     400002: polySurface1
     400004: polySurface10
@@ -35,6 +37,8 @@ ModelImporter:
     400026: transform3
     400028: transform4
     400030: transform5
+    400032: polySurface2 1
+    400034: pPlane1
     2100000: lambert1
     2300000: polySurface10
     2300002: polySurface2
@@ -82,7 +86,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
