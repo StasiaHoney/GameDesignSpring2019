@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: StandardJump
   m_EditorClassIdentifier: 
   Speed: 20
-  JumpForce: 0.8
+  JumpForce: 1
   Gravity: -3
