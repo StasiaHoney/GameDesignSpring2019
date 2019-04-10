@@ -4,11 +4,113 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: pCylinder1
+    100004: pCylinder10
+    100006: pCylinder11
+    100008: pCylinder12
+    100010: pCylinder13
+    100012: pCylinder14
+    100014: pCylinder15
+    100016: pCylinder16
+    100018: pCylinder17
+    100020: pCylinder18
+    100022: pCylinder19
+    100024: pCylinder2
+    100026: pCylinder20
+    100028: pCylinder21
+    100030: pCylinder22
+    100032: pCylinder23
+    100034: pCylinder24
+    100036: pCylinder25
+    100038: pCylinder3
+    100040: pCylinder4
+    100042: pCylinder5
+    100044: pCylinder6
+    100046: pCylinder7
+    100048: pCylinder8
+    100050: pCylinder9
+    100052: transform1
+    100054: transform10
+    100056: transform11
+    100058: transform12
+    100060: transform13
+    100062: transform14
+    100064: transform15
+    100066: transform16
+    100068: transform17
+    100070: transform18
+    100072: transform19
+    100074: transform2
+    100076: transform20
+    100078: transform21
+    100080: transform22
+    100082: transform23
+    100084: transform3
+    100086: transform4
+    100088: transform5
+    100090: transform6
+    100092: transform7
+    100094: transform8
+    100096: transform9
     400000: //RootNode
+    400002: pCylinder1
+    400004: pCylinder10
+    400006: pCylinder11
+    400008: pCylinder12
+    400010: pCylinder13
+    400012: pCylinder14
+    400014: pCylinder15
+    400016: pCylinder16
+    400018: pCylinder17
+    400020: pCylinder18
+    400022: pCylinder19
+    400024: pCylinder2
+    400026: pCylinder20
+    400028: pCylinder21
+    400030: pCylinder22
+    400032: pCylinder23
+    400034: pCylinder24
+    400036: pCylinder25
+    400038: pCylinder3
+    400040: pCylinder4
+    400042: pCylinder5
+    400044: pCylinder6
+    400046: pCylinder7
+    400048: pCylinder8
+    400050: pCylinder9
+    400052: transform1
+    400054: transform10
+    400056: transform11
+    400058: transform12
+    400060: transform13
+    400062: transform14
+    400064: transform15
+    400066: transform16
+    400068: transform17
+    400070: transform18
+    400072: transform19
+    400074: transform2
+    400076: transform20
+    400078: transform21
+    400080: transform22
+    400082: transform23
+    400084: transform3
+    400086: transform4
+    400088: transform5
+    400090: transform6
+    400092: transform7
+    400094: transform8
+    400096: transform9
     2100000: lambert1
     2300000: //RootNode
+    2300002: pCylinder24
+    2300004: pCylinder25
     3300000: //RootNode
+    3300002: pCylinder24
+    3300004: pCylinder25
     4300000: pCylinder1
+    4300002: pCylinder24
+    4300004: pCylinder25
   externalObjects: {}
   materials:
     importMaterials: 1
