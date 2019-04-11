@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Ground section 1.ma
-//Last modified: Wed, Apr 10, 2019 08:43:19 PM
+//Last modified: Wed, Apr 10, 2019 08:59:52 PM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "759ED5B4-498E-861C-A846-3F8F48DDD3B2";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2496.8700690842684 365.6321432795105 175.25334598721847 ;
+	setAttr ".t" -type "double3" 958.57311580609098 902.76293498557368 2021.7266716182089 ;
 	setAttr ".r" -type "double3" -22.538352729563236 -707.39999999995166 -8.1476074740884043e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "281174CE-4AE5-C459-3DB3-0A9553F8A883";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 397.03578965605652;
+	setAttr ".coi" 1957.3524814126308;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
