@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Ooze Monster Model.ma
-//Last modified: Wed, Apr 17, 2019 08:47:41 PM
+//Last modified: Wed, Apr 17, 2019 10:49:08 PM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "580F75CD-4788-E7C7-E649-7BBC1B87DE23";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -21.121202969854341 46.570812614158754 -102.83804175590286 ;
-	setAttr ".r" -type "double3" 1776.8616472698395 -540.99999999975103 0 ;
+	setAttr ".t" -type "double3" -6.6655705289372058 28.490565173513097 225.08898667443 ;
+	setAttr ".r" -type "double3" 1793.661647269038 -719.79999999967629 -4.6590440311657725e-18 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "2C77FAE5-4087-2E83-45F2-6FB009CFBF91";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 112.37783535723423;
+	setAttr ".coi" 225.44811428312372;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -126,7 +126,6 @@ createNode joint -n "Root_JNT" -p "Joints";
 	rename -uid "522BE34C-4F76-0791-72F8-B29CF2839AEA";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
-	setAttr ".t" -type "double3" 13.014689399502341 0 0 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".dla" yes;
@@ -140,7 +139,6 @@ createNode joint -n "Ooze_01_JNT" -p "Root_JNT";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
-	setAttr ".t" -type "double3" 0.98531059966610157 4.0480698947323757e-05 0 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".dla" yes;
@@ -153,7 +151,6 @@ createNode joint -n "Ooze_02_JNT" -p "Ooze_01_JNT";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 2;
-	setAttr ".t" -type "double3" 2.985310599666096 4.0480691026548502e-05 1.7821531453854132e-35 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".dla" yes;
@@ -165,7 +162,6 @@ createNode joint -n "Ooze_03_JNT" -p "Ooze_02_JNT";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 3;
-	setAttr ".t" -type "double3" 2.9853105996660978 4.0480698947323649e-05 2.6555294403259586e-35 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".dla" yes;
@@ -177,7 +173,6 @@ createNode joint -n "Ooze_04_JNT" -p "Ooze_03_JNT";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 4;
-	setAttr ".t" -type "double3" 2.9853105996660978 4.0480698947323649e-05 2.6555294403259586e-35 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".dla" yes;
@@ -189,7 +184,6 @@ createNode joint -n "Ooze_05_JNT" -p "Ooze_04_JNT";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 5;
-	setAttr ".t" -type "double3" 2.9853105996660978 4.0480698947323649e-05 -2.6555294403259586e-35 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".dla" yes;
@@ -201,7 +195,6 @@ createNode joint -n "Ooze_06_JNT" -p "Ooze_05_JNT";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 6;
-	setAttr ".t" -type "double3" 2.9853105996660978 4.0480698947323649e-05 2.6555294403259586e-35 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".dla" yes;
@@ -213,7 +206,6 @@ createNode joint -n "Ooze_07_JNT" -p "Ooze_06_JNT";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 7;
-	setAttr ".t" -type "double3" 2.9853105996660978 4.0480698947323757e-05 -2.6555294403259586e-35 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".dla" yes;
@@ -224,7 +216,6 @@ createNode joint -n "Ooze_08_JNT" -p "Ooze_07_JNT";
 	rename -uid "4BF4B2B6-41BF-E089-4239-92AB46FB7258";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
-	setAttr ".t" -type "double3" 2.9853105878507153 4.0480698947323649e-05 -4.4376825857113717e-35 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".dla" yes;
@@ -237,7 +228,6 @@ createNode joint -n "Ooze_09_JNT" -p "Ooze_08_JNT";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
-	setAttr ".t" -type "double3" 2.985310599666096 4.0480691026548502e-05 1.7821531453854132e-35 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".dla" yes;
@@ -250,7 +240,6 @@ createNode joint -n "Ooze_010_JNT" -p "Ooze_09_JNT";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 2;
-	setAttr ".t" -type "double3" 2.9853105996660978 4.0480698947323649e-05 2.6555294403259586e-35 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".dla" yes;
@@ -262,7 +251,6 @@ createNode joint -n "Ooze_011_JNT" -p "Ooze_010_JNT";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 3;
-	setAttr ".t" -type "double3" 2.9853105996660978 4.0480698947323649e-05 2.6555294403259586e-35 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".dla" yes;
@@ -274,7 +262,6 @@ createNode joint -n "Ooze_012_JNT" -p "Ooze_011_JNT";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 4;
-	setAttr ".t" -type "double3" 2.9853105996660978 4.0480698947323649e-05 -2.6555294403259586e-35 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".dla" yes;
@@ -286,7 +273,7 @@ createNode joint -n "Ooze_013_JNT" -p "Ooze_012_JNT";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 5;
-	setAttr ".t" -type "double3" 2.9853105996660978 4.0480698947323649e-05 2.6555294403259586e-35 ;
+	setAttr ".t" -type "double3" 2.8738550328831907 3.5901636013796975e-05 2.6555294403259586e-35 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".dla" yes;
@@ -298,24 +285,757 @@ createNode joint -n "Ooze_014_JNT" -p "Ooze_013_JNT";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 6;
-	setAttr ".t" -type "double3" 2.9853105996660978 4.0480698947323649e-05 -2.6555294403259586e-35 ;
+	setAttr ".t" -type "double3" 2.8738550328831907 3.5901636013796975e-05 -2.6555294403259586e-35 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".dla" yes;
 	setAttr ".jot" -type "string" "xzy";
 	setAttr ".bps" -type "matrix" -0.99999999915604443 4.1084201191865531e-05 0 0 -4.1084201191865531e-05 -0.99999999915604443 0 0
 		 0 0 1 0 -11.999999966241774 0.0010681892463446283 4.4376825857113717e-35 1;
-createNode joint -n "Ooze_015_JNT" -p "Ooze_014_JNT";
+createNode joint -n "Ooze_015_JNT" -p "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT";
 	rename -uid "DC7C10CB-4090-2CB3-96B0-2187B197E49F";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 7;
-	setAttr ".t" -type "double3" 2.9853105996660978 4.0480698947323649e-05 2.6555294403259586e-35 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".dla" yes;
 	setAttr ".bps" -type "matrix" -0.99999999915604443 4.1084201191865531e-05 0 0 -4.1084201191865531e-05 -0.99999999915604443 0 0
 		 0 0 1 0 -13.999999964553862 0.0011503576487283593 7.0932120260373303e-35 1;
+createNode parentConstraint -n "Ooze_015_JNT_parentConstraint1" -p "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT";
+	rename -uid "563071B8-46C2-0356-AB38-7FB590B4BB53";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Ooze_016_CTRLW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -7.1054273576010019e-15 1.1223186551119479e-19 
+		2.1382117680737565e-50 ;
+	setAttr ".rst" -type "double3" 2.873855032883192 3.5901636013797029e-05 2.6555294403259596e-35 ;
+	setAttr -k on ".w0";
+createNode joint -n "Ooze_013_JNT1" -p "Ooze_012_JNT";
+	rename -uid "C9D1CADD-4097-A920-C5E9-BC93E8EBE506";
+	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
+	setAttr ".uoc" 1;
+	setAttr ".oc" 5;
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".dla" yes;
+	setAttr ".jot" -type "string" "xzy";
+	setAttr ".bps" -type "matrix" -0.99999999915604443 4.1084201191865531e-05 0 0 -4.1084201191865531e-05 -0.99999999915604443 0 0
+		 0 0 1 0 -9.9999999679296856 0.00098602084396089726 7.0932120260373303e-35 1;
+createNode joint -n "Ooze_014_JNT" -p "Ooze_013_JNT1";
+	rename -uid "8B97C262-4260-FB92-936F-11B8D84329A1";
+	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
+	setAttr ".uoc" 1;
+	setAttr ".oc" 6;
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".dla" yes;
+	setAttr ".jot" -type "string" "xzy";
+	setAttr ".bps" -type "matrix" -0.99999999915604443 4.1084201191865531e-05 0 0 -4.1084201191865531e-05 -0.99999999915604443 0 0
+		 0 0 1 0 -11.999999966241774 0.0010681892463446283 4.4376825857113717e-35 1;
+createNode joint -n "Ooze_015_JNT" -p "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT1|Ooze_014_JNT";
+	rename -uid "48158859-4AAA-5EBB-07F9-06B4B7E600B6";
+	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
+	setAttr ".uoc" 1;
+	setAttr ".oc" 7;
+	setAttr ".t" -type "double3" 2.8738550328831907 3.5901636013796975e-05 2.6555294403259586e-35 ;
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".dla" yes;
+	setAttr ".bps" -type "matrix" -0.99999999915604443 4.1084201191865531e-05 0 0 -4.1084201191865531e-05 -0.99999999915604443 0 0
+		 0 0 1 0 -13.999999964553862 0.0011503576487283593 7.0932120260373303e-35 1;
+createNode parentConstraint -n "Ooze_014_JNT_parentConstraint1" -p "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT1|Ooze_014_JNT";
+	rename -uid "8ABB2B20-4CE6-3033-3DBF-26AA990C9CCE";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Ooze_015_CTRLW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 3.5527136788005009e-15 -2.507217523872729e-19 
+		1.0691058840368783e-50 ;
+	setAttr ".rst" -type "double3" 2.8738550328831884 3.590163601379669e-05 -2.655529440325958e-35 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "Ooze_013_JNT1_parentConstraint1" -p "Ooze_013_JNT1";
+	rename -uid "1A08A01E-4DB2-885A-1024-958B4802552D";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Ooze_014_CTRLW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 3.5527136788005009e-15 1.5585406229479126e-19 
+		0 ;
+	setAttr ".rst" -type "double3" 2.873855032883192 3.5901636013797313e-05 2.655529440325958e-35 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "Ooze_012_JNT_parentConstraint1" -p "Ooze_012_JNT";
+	rename -uid "781C06EE-4DE1-715B-7F85-1C82660066A1";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Ooze_013_CTRLW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -1.7763568394002505e-15 -3.6591823321385775e-19 
+		1.0691058840368783e-50 ;
+	setAttr ".rst" -type "double3" 2.8738550328831849 3.590163601379688e-05 -2.655529440325958e-35 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "Ooze_011_JNT_parentConstraint1" -p "Ooze_011_JNT";
+	rename -uid "8597EE86-4EA7-6C32-F9D1-24BC789F50AB";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Ooze_012_CTRLW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -1.7763568394002505e-15 -1.3552527156068805e-19 
+		-5.3455294201843913e-51 ;
+	setAttr ".rst" -type "double3" 2.8738550328831902 3.5901636013796636e-05 2.6555294403259586e-35 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "Ooze_010_JNT_parentConstraint1" -p "Ooze_010_JNT";
+	rename -uid "E5034B94-430B-2732-A491-5A856521721A";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Ooze_011_CTRLW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -1.7763568394002505e-15 -2.574980159653073e-19 
+		5.3455294201843913e-51 ;
+	setAttr ".rst" -type "double3" 2.8738550328831902 3.5901636013797259e-05 2.6555294403259591e-35 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "Ooze_09_JNT_parentConstraint1" -p "Ooze_09_JNT";
+	rename -uid "B844B5A2-48E3-4864-A60F-2C9E99A3936F";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Ooze_010_CTRLW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 0 -2.1684043449710089e-19 5.3455294201843913e-51 ;
+	setAttr ".rst" -type "double3" 2.8738550328831893 3.5901628093021679e-05 1.7821531453854129e-35 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "Ooze_08_JNT_parentConstraint1" -p "Ooze_08_JNT";
+	rename -uid "66EB3818-4420-AC88-9104-57B88012A31B";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Ooze_09_CTRLW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -8.8817841970012523e-16 -1.0842021724855044e-19 
+		8.6539421447477024e-51 ;
+	setAttr ".rst" -type "double3" 2.8738550210678069 3.5901636013796988e-05 -4.4376825857113717e-35 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "Ooze_07_JNT_parentConstraint1" -p "Ooze_07_JNT";
+	rename -uid "E40C4C2F-42C7-306A-DCBB-15B68460CDF8";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Ooze_08_CTRLW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 0 -2.7105054312137611e-20 -2.6727647100921956e-51 ;
+	setAttr ".rst" -type "double3" 2.8738550328831916 3.5901636013797151e-05 -2.655529440325958e-35 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "Ooze_06_JNT_parentConstraint1" -p "Ooze_06_JNT";
+	rename -uid "9D969F15-4F11-68F4-6253-8592BCE3581D";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Ooze_07_CTRLW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -2.2204460492503131e-16 -2.7105054312137611e-20 
+		-1.0691058840368783e-50 ;
+	setAttr ".rst" -type "double3" 2.8738550328831907 3.590163601379688e-05 2.6555294403259586e-35 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "Ooze_05_JNT_parentConstraint1" -p "Ooze_05_JNT";
+	rename -uid "33DA6919-45F5-D78E-4959-199604DAFD8B";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Ooze_06_CTRLW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -9.9920072216264089e-16 -2.7105054312137611e-20 
+		-5.3455294201843913e-51 ;
+	setAttr ".rst" -type "double3" 2.8738550328831902 3.5901636013796934e-05 -2.6555294403259586e-35 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "Ooze_04_JNT_parentConstraint1" -p "Ooze_04_JNT";
+	rename -uid "4C8B3D84-43C0-DB0A-42FE-6C802BD70D53";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Ooze_05_CTRLW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 0 -5.4210108624275222e-20 -2.1382117680737565e-50 ;
+	setAttr ".rst" -type "double3" 2.8738550328831916 3.5901636013797042e-05 2.6555294403259586e-35 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "Ooze_03_JNT_parentConstraint1" -p "Ooze_03_JNT";
+	rename -uid "4A667898-438A-CA32-4CA0-29A71B2B93E3";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Ooze_04_CTRLW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 0 -5.4210108624275222e-20 -5.3455294201843913e-51 ;
+	setAttr ".rst" -type "double3" 2.8738550328831911 3.5901636013797042e-05 2.6555294403259586e-35 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "Ooze_02_JNT_parentConstraint1" -p "Ooze_02_JNT";
+	rename -uid "BAB1DBC4-4875-A892-662A-E8BBC8C63D4E";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Ooze_03_CTRLW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -1.7763568394002505e-15 -2.1684043449710089e-19 
+		0 ;
+	setAttr ".rst" -type "double3" 2.8738550328831884 3.5901628093021895e-05 1.7821531453854132e-35 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "Ooze_01_JNT_parentConstraint1" -p "Ooze_01_JNT";
+	rename -uid "DF6B536F-4EED-6DB9-E855-ED85B090C424";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Ooze_02_CTRLW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -1.7763568394002505e-15 -1.0842021724855044e-19 
+		0 ;
+	setAttr ".rst" -type "double3" 0.87385503288319377 3.5901636013797042e-05 0 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "Root_JNT_parentConstraint1" -p "Root_JNT";
+	rename -uid "C180861A-4305-36A0-90E2-CCB765B8037C";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Ooze_01_CTRLW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".rst" -type "double3" 13.126144966379311 -2.1684043449710089e-19 0 ;
+	setAttr -k on ".w0";
+createNode transform -n "Controls" -p "Ooze_Monster";
+	rename -uid "CD4D355D-4257-E1D0-F145-929E0DB2DBD8";
+createNode transform -n "Ooze_01_CTRL_GRP" -p "Controls";
+	rename -uid "51B3B717-4179-11F8-4D6C-4C8A2E7C1E5F";
+	setAttr ".t" -type "double3" 13.126144966379311 -2.1684043449710089e-19 0 ;
+	setAttr ".r" -type "double3" 0 0 179.99764604866638 ;
+createNode transform -n "Ooze_01_CTRL" -p "Ooze_01_CTRL_GRP";
+	rename -uid "91227AAB-45E0-F4C3-87B2-4FB0707412DE";
+	setAttr ".s" -type "double3" 0.9096781926337042 0.9096781926337042 0.9096781926337042 ;
+createNode nurbsCurve -n "Ooze_01_CTRLShape" -p "Ooze_01_CTRL";
+	rename -uid "10213694-4AF8-6608-3669-5EB8C87E8124";
+	setAttr -k off ".v";
+	setAttr ".tw" yes;
+createNode transform -n "Ooze_02_CTRL_GRP" -p "Ooze_01_CTRL";
+	rename -uid "6C4B3FB9-45D0-8E63-B1B0-7A932D903295";
+	setAttr ".t" -type "double3" 0.96061996424604423 3.9466303913315241e-05 0 ;
+	setAttr ".s" -type "double3" 1.0992898456813565 1.0992898456813565 1.0992898456813565 ;
+createNode transform -n "Ooze_02_CTRL" -p "Ooze_02_CTRL_GRP";
+	rename -uid "F90C5A03-482A-3F01-4C0A-52BC5046459A";
+createNode nurbsCurve -n "Ooze_02_CTRLShape" -p "Ooze_02_CTRL";
+	rename -uid "8C027378-4D21-D960-402B-2786F6B5F7F2";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		-1.6932288029665332e-15 -7.6256246060930701 -3.9531372616426056e-16
+		-8.6712077816678156e-16 -5.392130869751405 5.392130869751405
+		4.669348382675587e-16 -7.6386403219581584e-16 7.6256246060930719
+		1.5274663591892508e-15 5.392130869751405 5.3921308697514041
+		1.6932288029665332e-15 7.6256246060930701 1.039903735093944e-15
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		;
+createNode transform -n "Ooze_03_CTRL_GRP" -p "Ooze_02_CTRL";
+	rename -uid "6FF79664-471C-9759-5D21-7A96E08F26B4";
+	setAttr ".t" -type "double3" 2.8738550328831884 3.5901628093022004e-05 1.7821531453854134e-35 ;
+	setAttr ".s" -type "double3" 1.0000000000000004 1.0000000000000004 1.0000000000000002 ;
+createNode transform -n "Ooze_03_CTRL" -p "Ooze_03_CTRL_GRP";
+	rename -uid "16B53D56-409C-13B2-07ED-B0A6CE8D70B2";
+	setAttr ".s" -type "double3" 1.204502146537946 1.204502146537946 1.204502146537946 ;
+createNode nurbsCurve -n "Ooze_03_CTRLShape" -p "Ooze_03_CTRL";
+	rename -uid "CEAA5E3E-4E45-4DDF-3882-0E990303155B";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		-1.6932288029665332e-15 -7.6256246060930701 -3.9531372616426056e-16
+		-8.6712077816678156e-16 -5.392130869751405 5.392130869751405
+		4.669348382675587e-16 -7.6386403219581584e-16 7.6256246060930719
+		1.5274663591892508e-15 5.392130869751405 5.3921308697514041
+		1.6932288029665332e-15 7.6256246060930701 1.039903735093944e-15
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		;
+createNode transform -n "Ooze_04_CTRL_GRP" -p "Ooze_03_CTRL";
+	rename -uid "C1B16830-49EC-939E-173E-8280DCB80EC4";
+	setAttr ".t" -type "double3" 2.385927697300831 2.9806203431839197e-05 2.2046697450549548e-35 ;
+	setAttr ".s" -type "double3" 0.83021852877079672 0.83021852877079672 0.83021852877079683 ;
+createNode transform -n "Ooze_04_CTRL" -p "Ooze_04_CTRL_GRP";
+	rename -uid "756490BE-4110-0D9A-2120-5AB6A8C87952";
+	setAttr ".s" -type "double3" 1.3538860275895195 1.3538860275895195 1.3538860275895195 ;
+createNode nurbsCurve -n "Ooze_04_CTRLShape" -p "Ooze_04_CTRL";
+	rename -uid "335F5E3B-4CF5-565A-7F1D-28956350F2B4";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		-1.6932288029665332e-15 -7.6256246060930701 -3.9531372616426056e-16
+		-8.6712077816678156e-16 -5.392130869751405 5.392130869751405
+		4.669348382675587e-16 -7.6386403219581584e-16 7.6256246060930719
+		1.5274663591892508e-15 5.392130869751405 5.3921308697514041
+		1.6932288029665332e-15 7.6256246060930701 1.039903735093944e-15
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		;
+createNode transform -n "Ooze_05_CTRL_GRP" -p "Ooze_04_CTRL";
+	rename -uid "972B5930-4E55-4EE5-98CB-E1A3EDB3F3A4";
+	setAttr ".t" -type "double3" 2.1226713137736182 2.6517472875997464e-05 1.9614128414146548e-35 ;
+	setAttr ".s" -type "double3" 0.73861460981351301 0.73861460981351301 0.73861460981351301 ;
+createNode transform -n "Ooze_05_CTRL" -p "Ooze_05_CTRL_GRP";
+	rename -uid "B366EC02-4BD1-089D-FB81-309C9E6478A3";
+	setAttr ".t" -type "double3" 0 5.4210108624275222e-20 1.0691058840368783e-50 ;
+	setAttr ".s" -type "double3" 1.5409765371893049 1.5409765371893049 1.5409765371893049 ;
+createNode nurbsCurve -n "Ooze_05_CTRLShape" -p "Ooze_05_CTRL";
+	rename -uid "1CAB3871-4C65-EE54-36E7-9F8EFE7D587F";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		-1.6932288029665332e-15 -7.6256246060930701 -3.9531372616426056e-16
+		-8.6712077816678156e-16 -5.392130869751405 5.392130869751405
+		4.669348382675587e-16 -7.6386403219581584e-16 7.6256246060930719
+		1.5274663591892508e-15 5.392130869751405 5.3921308697514041
+		1.6932288029665332e-15 7.6256246060930701 1.039903735093944e-15
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		;
+createNode transform -n "Ooze_06_CTRL_GRP" -p "Ooze_05_CTRL";
+	rename -uid "D792C40F-4972-D293-665A-D3AE23EE371B";
+	setAttr ".t" -type "double3" 1.8649570344043114 2.3297977060235051e-05 -1.7232770105439544e-35 ;
+	setAttr ".s" -type "double3" 0.64893914726564894 0.64893914726564894 0.64893914726564883 ;
+createNode transform -n "Ooze_06_CTRL" -p "Ooze_06_CTRL_GRP";
+	rename -uid "CC468E64-49C9-C1BE-D6D6-7EB6D5F25003";
+	setAttr ".s" -type "double3" 1.7210426933379213 1.7210426933379213 1.7210426933379213 ;
+createNode nurbsCurve -n "Ooze_06_CTRLShape" -p "Ooze_06_CTRL";
+	rename -uid "2C9E9EFA-4EA0-C47C-7858-319B0800A485";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		-1.6932288029665332e-15 -7.6256246060930701 -3.9531372616426056e-16
+		-8.6712077816678156e-16 -5.392130869751405 5.392130869751405
+		4.669348382675587e-16 -7.6386403219581584e-16 7.6256246060930719
+		1.5274663591892508e-15 5.392130869751405 5.3921308697514041
+		1.6932288029665332e-15 7.6256246060930701 1.039903735093944e-15
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		;
+createNode transform -n "Ooze_07_CTRL_GRP" -p "Ooze_06_CTRL";
+	rename -uid "824E7C0E-467B-315E-9886-3D8A983CA4CF";
+	setAttr ".t" -type "double3" 1.6698336676990935 2.0860398264825429e-05 1.5429770862776347e-35 ;
+	setAttr ".s" -type "double3" 0.58104311059275582 0.58104311059275582 0.58104311059275571 ;
+createNode transform -n "Ooze_07_CTRL" -p "Ooze_07_CTRL_GRP";
+	rename -uid "6C0D8054-4E24-8E56-1CC9-DB8E43DB8508";
+	setAttr ".s" -type "double3" 1.7962781097744629 1.7962781097744629 1.7962781097744629 ;
+createNode nurbsCurve -n "Ooze_07_CTRLShape" -p "Ooze_07_CTRL";
+	rename -uid "539BAD8D-46A2-AA3C-26F6-8FB095979732";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		-1.6932288029665332e-15 -7.6256246060930701 -3.9531372616426056e-16
+		-8.6712077816678156e-16 -5.392130869751405 5.392130869751405
+		4.669348382675587e-16 -7.6386403219581584e-16 7.6256246060930719
+		1.5274663591892508e-15 5.392130869751405 5.3921308697514041
+		1.6932288029665332e-15 7.6256246060930701 1.039903735093944e-15
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		;
+createNode transform -n "Ooze_08_CTRL_GRP" -p "Ooze_07_CTRL";
+	rename -uid "F9309F12-439B-76F5-BBAD-BD8A1EE50EE0";
+	setAttr ".t" -type "double3" 1.5998942576013608 1.9986680135129444e-05 -1.4783509445869616e-35 ;
+	setAttr ".s" -type "double3" 0.55670666727968865 0.55670666727968865 0.55670666727968865 ;
+createNode transform -n "Ooze_08_CTRL" -p "Ooze_08_CTRL_GRP";
+	rename -uid "C9196D3B-448F-0314-1D8D-36BFBCC8E3AF";
+	setAttr ".s" -type "double3" 1.8887697100583423 1.8887697100583423 1.8887697100583423 ;
+createNode nurbsCurve -n "Ooze_08_CTRLShape" -p "Ooze_08_CTRL";
+	rename -uid "FE55DE76-4149-5957-4D5C-06A5FA87DC27";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		-1.6932288029665332e-15 -7.6256246060930701 -3.9531372616426056e-16
+		-8.6712077816678156e-16 -5.392130869751405 5.392130869751405
+		4.669348382675587e-16 -7.6386403219581584e-16 7.6256246060930719
+		1.5274663591892508e-15 5.392130869751405 5.3921308697514041
+		1.6932288029665332e-15 7.6256246060930701 1.039903735093944e-15
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		;
+createNode transform -n "Ooze_09_CTRL_GRP" -p "Ooze_08_CTRL";
+	rename -uid "D67F7ACF-44CE-458C-E018-29968A3DA065";
+	setAttr ".t" -type "double3" 1.5215486598305499 1.9007947778179916e-05 -2.3495096104512906e-35 ;
+	setAttr ".s" -type "double3" 0.52944516987680346 0.52944516987680346 0.52944516987680357 ;
+createNode transform -n "Ooze_09_CTRL" -p "Ooze_09_CTRL_GRP";
+	rename -uid "603081C7-4611-3359-80B1-BFA8B9CF894E";
+	setAttr ".s" -type "double3" 1.8530963105971519 1.8530963105971519 1.8530963105971519 ;
+createNode nurbsCurve -n "Ooze_09_CTRLShape" -p "Ooze_09_CTRL";
+	rename -uid "F756C9C0-422D-58B7-01E7-F2B87B165F2F";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		-1.6932288029665332e-15 -7.6256246060930701 -3.9531372616426056e-16
+		-8.6712077816678156e-16 -5.392130869751405 5.392130869751405
+		4.669348382675587e-16 -7.6386403219581584e-16 7.6256246060930719
+		1.5274663591892508e-15 5.392130869751405 5.3921308697514041
+		1.6932288029665332e-15 7.6256246060930701 1.039903735093944e-15
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		;
+createNode transform -n "Ooze_010_CTRL_GRP" -p "Ooze_09_CTRL";
+	rename -uid "ACC834C4-40B5-6CA1-4782-02B84AB20431";
+	setAttr ".t" -type "double3" 1.5508395416086609 1.9373859786841243e-05 9.617164176486447e-36 ;
+	setAttr ".s" -type "double3" 0.53963735952706882 0.53963735952706882 0.53963735952706882 ;
+createNode transform -n "Ooze_010_CTRL" -p "Ooze_010_CTRL_GRP";
+	rename -uid "938A4461-418C-4E61-EF79-7D91AA9AED35";
+	setAttr ".s" -type "double3" 1.8219531933345638 1.8219531933345638 1.8219531933345638 ;
+createNode nurbsCurve -n "Ooze_010_CTRLShape" -p "Ooze_010_CTRL";
+	rename -uid "F58D7BE3-46F9-7B46-F1E3-6296B2E86440";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		-1.6932288029665332e-15 -7.6256246060930701 -3.9531372616426056e-16
+		-8.6712077816678156e-16 -5.392130869751405 5.392130869751405
+		4.669348382675587e-16 -7.6386403219581584e-16 7.6256246060930719
+		1.5274663591892508e-15 5.392130869751405 5.3921308697514041
+		1.6932288029665332e-15 7.6256246060930701 1.039903735093944e-15
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		;
+createNode transform -n "Ooze_011_CTRL_GRP" -p "Ooze_010_CTRL";
+	rename -uid "89124DA4-4A82-DD12-A2A6-33A8483275AA";
+	setAttr ".t" -type "double3" 1.5773484430867422 1.9705026531493665e-05 1.4575179263885326e-35 ;
+	setAttr ".s" -type "double3" 0.54886152051457815 0.54886152051457815 0.54886152051457815 ;
+createNode transform -n "Ooze_011_CTRL" -p "Ooze_011_CTRL_GRP";
+	rename -uid "F5C92309-48F5-38C1-EC5D-4F89104C7824";
+	setAttr ".s" -type "double3" 1.7192280921140615 1.7192280921140615 1.7192280921140615 ;
+createNode nurbsCurve -n "Ooze_011_CTRLShape" -p "Ooze_011_CTRL";
+	rename -uid "2659BAF2-4E48-11BC-03FF-72BF92574373";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		-1.6932288029665332e-15 -7.6256246060930701 -3.9531372616426056e-16
+		-8.6712077816678156e-16 -5.392130869751405 5.392130869751405
+		4.669348382675587e-16 -7.6386403219581584e-16 7.6256246060930719
+		1.5274663591892508e-15 5.392130869751405 5.3921308697514041
+		1.6932288029665332e-15 7.6256246060930701 1.039903735093944e-15
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		;
+createNode transform -n "Ooze_012_CTRL_GRP" -p "Ooze_011_CTRL";
+	rename -uid "C28D22C9-4E02-D74E-67DC-54B13A773BC3";
+	setAttr ".t" -type "double3" 1.6715961343729173 2.0882415880984091e-05 1.5446056590784113e-35 ;
+	setAttr ".s" -type "double3" 0.58165638671617026 0.58165638671617026 0.58165638671617026 ;
+createNode transform -n "Ooze_012_CTRL" -p "Ooze_012_CTRL_GRP";
+	rename -uid "D5299BF0-4E0A-7D51-5D3A-8F84A56218FD";
+	setAttr ".s" -type "double3" 1.6249864784799506 1.6249864784799506 1.6249864784799506 ;
+createNode nurbsCurve -n "Ooze_012_CTRLShape" -p "Ooze_012_CTRL";
+	rename -uid "09864D0F-47CF-1B62-259E-6E957638C070";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		-1.6932288029665332e-15 -7.6256246060930701 -3.9531372616426056e-16
+		-8.6712077816678156e-16 -5.392130869751405 5.392130869751405
+		4.669348382675587e-16 -7.6386403219581584e-16 7.6256246060930719
+		1.5274663591892508e-15 5.392130869751405 5.3921308697514041
+		1.6932288029665332e-15 7.6256246060930701 1.039903735093944e-15
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		;
+createNode transform -n "Ooze_013_CTRL_GRP" -p "Ooze_012_CTRL";
+	rename -uid "67E5AE37-4D5D-42BE-5B87-93A623A214C3";
+	setAttr ".t" -type "double3" 1.768540889996487 2.2093498308601501e-05 -1.6341855612300247e-35 ;
+	setAttr ".s" -type "double3" 0.61538973600286384 0.61538973600286384 0.61538973600286362 ;
+createNode transform -n "Ooze_013_CTRL" -p "Ooze_013_CTRL_GRP";
+	rename -uid "C5D0D5BA-4BA6-CD1C-AB17-52954B89CDAC";
+	setAttr ".s" -type "double3" 1.4770004024867289 1.4770004024867289 1.4770004024867289 ;
+createNode nurbsCurve -n "Ooze_013_CTRLShape" -p "Ooze_013_CTRL";
+	rename -uid "7ACC5967-4186-63C8-6E16-A89F6C83325D";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		-1.6932288029665332e-15 -7.6256246060930701 -3.9531372616426056e-16
+		-8.6712077816678156e-16 -5.392130869751405 5.392130869751405
+		4.669348382675587e-16 -7.6386403219581584e-16 7.6256246060930719
+		1.5274663591892508e-15 5.392130869751405 5.3921308697514041
+		1.6932288029665332e-15 7.6256246060930701 1.039903735093944e-15
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		;
+createNode transform -n "Ooze_014_CTRL_GRP" -p "Ooze_013_CTRL";
+	rename -uid "9B8F8227-49FE-40B6-0C18-EF8CBD393092";
+	setAttr ".t" -type "double3" 1.9457374744412128 2.4307126764049286e-05 1.797920593559093e-35 ;
+	setAttr ".s" -type "double3" 0.6770478859155119 0.6770478859155119 0.6770478859155119 ;
+createNode transform -n "Ooze_014_CTRL" -p "Ooze_014_CTRL_GRP";
+	rename -uid "2D9C1129-4C5D-E108-7E5E-FE9A87B564D7";
+	setAttr ".s" -type "double3" 1.3638085577391823 1.3638085577391823 1.3638085577391823 ;
+createNode nurbsCurve -n "Ooze_014_CTRLShape" -p "Ooze_014_CTRL";
+	rename -uid "9BC8B7FE-4428-CC25-8022-2EA0B421B7E1";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		-1.6932288029665332e-15 -7.6256246060930701 -3.9531372616426056e-16
+		-8.6712077816678156e-16 -5.392130869751405 5.392130869751405
+		4.669348382675587e-16 -7.6386403219581584e-16 7.6256246060930719
+		1.5274663591892508e-15 5.392130869751405 5.3921308697514041
+		1.6932288029665332e-15 7.6256246060930701 1.039903735093944e-15
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		;
+createNode transform -n "Ooze_015_CTRL_GRP" -p "Ooze_014_CTRL";
+	rename -uid "60F1D4B1-4EA1-3F6C-A919-E288B54F6EF6";
+	setAttr ".t" -type "double3" 2.1072275991926936 2.6324542260764266e-05 -1.947142379519962e-35 ;
+	setAttr ".s" -type "double3" 0.73324074286329732 0.73324074286329732 0.73324074286329732 ;
+createNode transform -n "Ooze_015_CTRL" -p "Ooze_015_CTRL_GRP";
+	rename -uid "16AFC605-4E3A-3ADA-E546-079647F6D931";
+	setAttr ".s" -type "double3" 1.1949091956871836 1.1949091956871836 1.1949091956871836 ;
+createNode nurbsCurve -n "Ooze_015_CTRLShape" -p "Ooze_015_CTRL";
+	rename -uid "366F41A9-40D0-DABE-7B3D-86BDD47390FF";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		-1.6932288029665332e-15 -7.6256246060930701 -3.9531372616426056e-16
+		-8.6712077816678156e-16 -5.392130869751405 5.392130869751405
+		4.669348382675587e-16 -7.6386403219581584e-16 7.6256246060930719
+		1.5274663591892508e-15 5.392130869751405 5.3921308697514041
+		1.6932288029665332e-15 7.6256246060930701 1.039903735093944e-15
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		;
+createNode transform -n "Ooze_016_CTRL_GRP" -p "Ooze_015_CTRL";
+	rename -uid "5012F76B-458C-7868-3445-789813861B20";
+	setAttr ".t" -type "double3" 2.4050823637945662 3.0045493116445627e-05 2.2223692393619774e-35 ;
+	setAttr ".s" -type "double3" 0.8368836758553081 0.8368836758553081 0.83688367585530821 ;
+createNode transform -n "Ooze_016_CTRL" -p "Ooze_016_CTRL_GRP";
+	rename -uid "1B7BC45C-492B-2018-1ADB-54A3B3FAD076";
+	setAttr ".s" -type "double3" 0.82086053178324625 0.82086053178324625 0.82086053178324625 ;
+createNode nurbsCurve -n "Ooze_016_CTRLShape" -p "Ooze_016_CTRL";
+	rename -uid "4A206130-4B4F-3450-D86C-758CCF58EB35";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		-1.6932288029665332e-15 -7.6256246060930701 -3.9531372616426056e-16
+		-8.6712077816678156e-16 -5.392130869751405 5.392130869751405
+		4.669348382675587e-16 -7.6386403219581584e-16 7.6256246060930719
+		1.5274663591892508e-15 5.392130869751405 5.3921308697514041
+		1.6932288029665332e-15 7.6256246060930701 1.039903735093944e-15
+		8.6712077816678156e-16 5.392130869751405 -5.3921308697514059
+		-4.669348382675584e-16 4.669348382675586e-16 -7.6256246060930675
+		-1.5274663591892508e-15 -5.392130869751405 -5.3921308697514041
+		;
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "C2E86E27-4364-60FD-A11F-6AAAC06B373C";
 	setAttr -s 2 ".lnk";
@@ -326,9 +1046,9 @@ createNode poseInterpolatorManager -n "poseInterpolatorManager";
 	rename -uid "2A290207-47F7-6C8F-3EC9-3F82D8E7F4D9";
 createNode displayLayerManager -n "layerManager";
 	rename -uid "3C921835-4F4F-B0F4-5D5D-5592F49DEE64";
-	setAttr ".cdl" 1;
-	setAttr ".dli[1]"  1;
-	setAttr -s 2 ".dli";
+	setAttr ".cdl" 3;
+	setAttr -s 3 ".dli[1:3]"  1 2 3;
+	setAttr -s 4 ".dli";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "D9F2AD6F-4B21-5854-5F1A-56B416569BA6";
 createNode renderLayerManager -n "renderLayerManager";
@@ -355,7 +1075,7 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 373\n            -height 377\n"
 		+ "            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 0\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n"
 		+ "            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n"
-		+ "            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n"
+		+ "            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 0\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n"
 		+ "            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1218\n            -height 798\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n"
 		+ "            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n"
 		+ "            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n"
@@ -382,8 +1102,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 0\n                -height 0\n                -sceneRenderFilter 0\n                -displayMode \"centerEye\" \n                -viewColor 0 0 0 1 \n                -useCustomBackground 1\n                $editorName;\n            stereoCameraView -e -viewSelected 0 $editorName;\n            stereoCameraView -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"nodeEditorPanel\" (localizedPanelLabel(\"Node Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -connectNodeOnCreation 0\n                -connectOnDrop 0\n                -highlightConnections 0\n                -copyConnectionsOnPaste 0\n                -defaultPinnedState 0\n                -additiveGraphingMode 0\n                -settingsChangedCallback \"nodeEdSyncControls\" \n                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n                -gridSnap 0\n                -gridVisibility 1\n                -crosshairOnEdgeDragging 0\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n"
 		+ "                -extendToShapes 1\n                -activeTab -1\n                -editorMode \"default\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 0\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1218\\n    -height 798\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 0\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1218\\n    -height 798\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 0\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 0\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1218\\n    -height 798\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 0\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 0\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1218\\n    -height 798\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -4047,8 +4767,22 @@ createNode dagPose -n "bindPose1";
 	setAttr ".bp" yes;
 createNode displayLayer -n "Joint_Layer";
 	rename -uid "21FD7E15-4FDF-BA6A-8F8D-5F9688D9EE85";
-	setAttr ".dt" 2;
+	setAttr ".v" no;
 	setAttr ".do" 1;
+createNode makeNurbCircle -n "makeNurbCircle1";
+	rename -uid "9CEECFEE-4D15-8E36-EBC4-21B0E0704D61";
+	setAttr ".nr" -type "double3" 0 1 0 ;
+createNode transformGeometry -n "transformGeometry1";
+	rename -uid "8E405C03-4965-5E03-EA6F-CFA00BB392E1";
+	setAttr ".txf" -type "matrix" 1.5279170582036938e-15 6.88112669397918 0 0 -6.88112669397918 1.5279170582036938e-15 0 0
+		 0 0 6.88112669397918 0 0 0 0 1;
+createNode displayLayer -n "Geometry_Layer";
+	rename -uid "2EF8C6E5-4813-A3E8-DA87-058474C5259F";
+	setAttr ".dt" 2;
+	setAttr ".do" 2;
+createNode displayLayer -n "Control_Layer";
+	rename -uid "7E86F728-4B16-2AE6-2A62-828AD810FA9C";
+	setAttr ".do" 3;
 select -ne :time1;
 	setAttr -k on ".cch";
 	setAttr -cb on ".ihi";
@@ -4148,6 +4882,7 @@ select -ne :hardwareRenderGlobals;
 	setAttr -k on ".hwql";
 select -ne :ikSystem;
 	setAttr -s 4 ".sol";
+connectAttr "Geometry_Layer.di" "Geometry.do";
 connectAttr "skinCluster1.og[0]" "Ooze_GEOShape.i";
 connectAttr "skinCluster1GroupId.id" "Ooze_GEOShape.iog.og[0].gid";
 connectAttr "skinCluster1Set.mwc" "Ooze_GEOShape.iog.og[0].gco";
@@ -4156,21 +4891,372 @@ connectAttr "tweakSet1.mwc" "Ooze_GEOShape.iog.og[1].gco";
 connectAttr "tweak1.vl[0].vt[0]" "Ooze_GEOShape.twl";
 connectAttr "polySphere1.out" "Ooze_GEOShapeOrig.i";
 connectAttr "Joint_Layer.di" "Joints.do";
+connectAttr "Root_JNT_parentConstraint1.ctx" "Root_JNT.tx";
+connectAttr "Root_JNT_parentConstraint1.cty" "Root_JNT.ty";
+connectAttr "Root_JNT_parentConstraint1.ctz" "Root_JNT.tz";
+connectAttr "Root_JNT_parentConstraint1.crx" "Root_JNT.rx";
+connectAttr "Root_JNT_parentConstraint1.cry" "Root_JNT.ry";
+connectAttr "Root_JNT_parentConstraint1.crz" "Root_JNT.rz";
 connectAttr "Root_JNT.s" "Ooze_01_JNT.is";
+connectAttr "Ooze_01_JNT_parentConstraint1.ctx" "Ooze_01_JNT.tx";
+connectAttr "Ooze_01_JNT_parentConstraint1.cty" "Ooze_01_JNT.ty";
+connectAttr "Ooze_01_JNT_parentConstraint1.ctz" "Ooze_01_JNT.tz";
+connectAttr "Ooze_01_JNT_parentConstraint1.crx" "Ooze_01_JNT.rx";
+connectAttr "Ooze_01_JNT_parentConstraint1.cry" "Ooze_01_JNT.ry";
+connectAttr "Ooze_01_JNT_parentConstraint1.crz" "Ooze_01_JNT.rz";
 connectAttr "Ooze_01_JNT.s" "Ooze_02_JNT.is";
+connectAttr "Ooze_02_JNT_parentConstraint1.ctx" "Ooze_02_JNT.tx";
+connectAttr "Ooze_02_JNT_parentConstraint1.cty" "Ooze_02_JNT.ty";
+connectAttr "Ooze_02_JNT_parentConstraint1.ctz" "Ooze_02_JNT.tz";
+connectAttr "Ooze_02_JNT_parentConstraint1.crx" "Ooze_02_JNT.rx";
+connectAttr "Ooze_02_JNT_parentConstraint1.cry" "Ooze_02_JNT.ry";
+connectAttr "Ooze_02_JNT_parentConstraint1.crz" "Ooze_02_JNT.rz";
 connectAttr "Ooze_02_JNT.s" "Ooze_03_JNT.is";
+connectAttr "Ooze_03_JNT_parentConstraint1.ctx" "Ooze_03_JNT.tx";
+connectAttr "Ooze_03_JNT_parentConstraint1.cty" "Ooze_03_JNT.ty";
+connectAttr "Ooze_03_JNT_parentConstraint1.ctz" "Ooze_03_JNT.tz";
+connectAttr "Ooze_03_JNT_parentConstraint1.crx" "Ooze_03_JNT.rx";
+connectAttr "Ooze_03_JNT_parentConstraint1.cry" "Ooze_03_JNT.ry";
+connectAttr "Ooze_03_JNT_parentConstraint1.crz" "Ooze_03_JNT.rz";
 connectAttr "Ooze_03_JNT.s" "Ooze_04_JNT.is";
+connectAttr "Ooze_04_JNT_parentConstraint1.ctx" "Ooze_04_JNT.tx";
+connectAttr "Ooze_04_JNT_parentConstraint1.cty" "Ooze_04_JNT.ty";
+connectAttr "Ooze_04_JNT_parentConstraint1.ctz" "Ooze_04_JNT.tz";
+connectAttr "Ooze_04_JNT_parentConstraint1.crx" "Ooze_04_JNT.rx";
+connectAttr "Ooze_04_JNT_parentConstraint1.cry" "Ooze_04_JNT.ry";
+connectAttr "Ooze_04_JNT_parentConstraint1.crz" "Ooze_04_JNT.rz";
 connectAttr "Ooze_04_JNT.s" "Ooze_05_JNT.is";
+connectAttr "Ooze_05_JNT_parentConstraint1.ctx" "Ooze_05_JNT.tx";
+connectAttr "Ooze_05_JNT_parentConstraint1.cty" "Ooze_05_JNT.ty";
+connectAttr "Ooze_05_JNT_parentConstraint1.ctz" "Ooze_05_JNT.tz";
+connectAttr "Ooze_05_JNT_parentConstraint1.crx" "Ooze_05_JNT.rx";
+connectAttr "Ooze_05_JNT_parentConstraint1.cry" "Ooze_05_JNT.ry";
+connectAttr "Ooze_05_JNT_parentConstraint1.crz" "Ooze_05_JNT.rz";
 connectAttr "Ooze_05_JNT.s" "Ooze_06_JNT.is";
+connectAttr "Ooze_06_JNT_parentConstraint1.ctx" "Ooze_06_JNT.tx";
+connectAttr "Ooze_06_JNT_parentConstraint1.cty" "Ooze_06_JNT.ty";
+connectAttr "Ooze_06_JNT_parentConstraint1.ctz" "Ooze_06_JNT.tz";
+connectAttr "Ooze_06_JNT_parentConstraint1.crx" "Ooze_06_JNT.rx";
+connectAttr "Ooze_06_JNT_parentConstraint1.cry" "Ooze_06_JNT.ry";
+connectAttr "Ooze_06_JNT_parentConstraint1.crz" "Ooze_06_JNT.rz";
 connectAttr "Ooze_06_JNT.s" "Ooze_07_JNT.is";
+connectAttr "Ooze_07_JNT_parentConstraint1.ctx" "Ooze_07_JNT.tx";
+connectAttr "Ooze_07_JNT_parentConstraint1.cty" "Ooze_07_JNT.ty";
+connectAttr "Ooze_07_JNT_parentConstraint1.ctz" "Ooze_07_JNT.tz";
+connectAttr "Ooze_07_JNT_parentConstraint1.crx" "Ooze_07_JNT.rx";
+connectAttr "Ooze_07_JNT_parentConstraint1.cry" "Ooze_07_JNT.ry";
+connectAttr "Ooze_07_JNT_parentConstraint1.crz" "Ooze_07_JNT.rz";
 connectAttr "Ooze_07_JNT.s" "Ooze_08_JNT.is";
+connectAttr "Ooze_08_JNT_parentConstraint1.ctx" "Ooze_08_JNT.tx";
+connectAttr "Ooze_08_JNT_parentConstraint1.cty" "Ooze_08_JNT.ty";
+connectAttr "Ooze_08_JNT_parentConstraint1.ctz" "Ooze_08_JNT.tz";
+connectAttr "Ooze_08_JNT_parentConstraint1.crx" "Ooze_08_JNT.rx";
+connectAttr "Ooze_08_JNT_parentConstraint1.cry" "Ooze_08_JNT.ry";
+connectAttr "Ooze_08_JNT_parentConstraint1.crz" "Ooze_08_JNT.rz";
 connectAttr "Ooze_08_JNT.s" "Ooze_09_JNT.is";
+connectAttr "Ooze_09_JNT_parentConstraint1.ctx" "Ooze_09_JNT.tx";
+connectAttr "Ooze_09_JNT_parentConstraint1.cty" "Ooze_09_JNT.ty";
+connectAttr "Ooze_09_JNT_parentConstraint1.ctz" "Ooze_09_JNT.tz";
+connectAttr "Ooze_09_JNT_parentConstraint1.crx" "Ooze_09_JNT.rx";
+connectAttr "Ooze_09_JNT_parentConstraint1.cry" "Ooze_09_JNT.ry";
+connectAttr "Ooze_09_JNT_parentConstraint1.crz" "Ooze_09_JNT.rz";
 connectAttr "Ooze_09_JNT.s" "Ooze_010_JNT.is";
+connectAttr "Ooze_010_JNT_parentConstraint1.ctx" "Ooze_010_JNT.tx";
+connectAttr "Ooze_010_JNT_parentConstraint1.cty" "Ooze_010_JNT.ty";
+connectAttr "Ooze_010_JNT_parentConstraint1.ctz" "Ooze_010_JNT.tz";
+connectAttr "Ooze_010_JNT_parentConstraint1.crx" "Ooze_010_JNT.rx";
+connectAttr "Ooze_010_JNT_parentConstraint1.cry" "Ooze_010_JNT.ry";
+connectAttr "Ooze_010_JNT_parentConstraint1.crz" "Ooze_010_JNT.rz";
 connectAttr "Ooze_010_JNT.s" "Ooze_011_JNT.is";
+connectAttr "Ooze_011_JNT_parentConstraint1.ctx" "Ooze_011_JNT.tx";
+connectAttr "Ooze_011_JNT_parentConstraint1.cty" "Ooze_011_JNT.ty";
+connectAttr "Ooze_011_JNT_parentConstraint1.ctz" "Ooze_011_JNT.tz";
+connectAttr "Ooze_011_JNT_parentConstraint1.crx" "Ooze_011_JNT.rx";
+connectAttr "Ooze_011_JNT_parentConstraint1.cry" "Ooze_011_JNT.ry";
+connectAttr "Ooze_011_JNT_parentConstraint1.crz" "Ooze_011_JNT.rz";
 connectAttr "Ooze_011_JNT.s" "Ooze_012_JNT.is";
+connectAttr "Ooze_012_JNT_parentConstraint1.ctx" "Ooze_012_JNT.tx";
+connectAttr "Ooze_012_JNT_parentConstraint1.cty" "Ooze_012_JNT.ty";
+connectAttr "Ooze_012_JNT_parentConstraint1.ctz" "Ooze_012_JNT.tz";
+connectAttr "Ooze_012_JNT_parentConstraint1.crx" "Ooze_012_JNT.rx";
+connectAttr "Ooze_012_JNT_parentConstraint1.cry" "Ooze_012_JNT.ry";
+connectAttr "Ooze_012_JNT_parentConstraint1.crz" "Ooze_012_JNT.rz";
 connectAttr "Ooze_012_JNT.s" "Ooze_013_JNT.is";
-connectAttr "Ooze_013_JNT.s" "Ooze_014_JNT.is";
-connectAttr "Ooze_014_JNT.s" "Ooze_015_JNT.is";
+connectAttr "Ooze_013_JNT.s" "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT.is"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT.s" "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.is"
+		;
+connectAttr "Ooze_015_JNT_parentConstraint1.ctx" "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.tx"
+		;
+connectAttr "Ooze_015_JNT_parentConstraint1.cty" "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.ty"
+		;
+connectAttr "Ooze_015_JNT_parentConstraint1.ctz" "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.tz"
+		;
+connectAttr "Ooze_015_JNT_parentConstraint1.crx" "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.rx"
+		;
+connectAttr "Ooze_015_JNT_parentConstraint1.cry" "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.ry"
+		;
+connectAttr "Ooze_015_JNT_parentConstraint1.crz" "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.rz"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.ro" "Ooze_015_JNT_parentConstraint1.cro"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.pim" "Ooze_015_JNT_parentConstraint1.cpim"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.rp" "Ooze_015_JNT_parentConstraint1.crp"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.rpt" "Ooze_015_JNT_parentConstraint1.crt"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.jo" "Ooze_015_JNT_parentConstraint1.cjo"
+		;
+connectAttr "Ooze_016_CTRL.t" "Ooze_015_JNT_parentConstraint1.tg[0].tt";
+connectAttr "Ooze_016_CTRL.rp" "Ooze_015_JNT_parentConstraint1.tg[0].trp";
+connectAttr "Ooze_016_CTRL.rpt" "Ooze_015_JNT_parentConstraint1.tg[0].trt";
+connectAttr "Ooze_016_CTRL.r" "Ooze_015_JNT_parentConstraint1.tg[0].tr";
+connectAttr "Ooze_016_CTRL.ro" "Ooze_015_JNT_parentConstraint1.tg[0].tro";
+connectAttr "Ooze_016_CTRL.s" "Ooze_015_JNT_parentConstraint1.tg[0].ts";
+connectAttr "Ooze_016_CTRL.pm" "Ooze_015_JNT_parentConstraint1.tg[0].tpm";
+connectAttr "Ooze_015_JNT_parentConstraint1.w0" "Ooze_015_JNT_parentConstraint1.tg[0].tw"
+		;
+connectAttr "Ooze_012_JNT.s" "Ooze_013_JNT1.is";
+connectAttr "Ooze_013_JNT1_parentConstraint1.ctx" "Ooze_013_JNT1.tx";
+connectAttr "Ooze_013_JNT1_parentConstraint1.cty" "Ooze_013_JNT1.ty";
+connectAttr "Ooze_013_JNT1_parentConstraint1.ctz" "Ooze_013_JNT1.tz";
+connectAttr "Ooze_013_JNT1_parentConstraint1.crx" "Ooze_013_JNT1.rx";
+connectAttr "Ooze_013_JNT1_parentConstraint1.cry" "Ooze_013_JNT1.ry";
+connectAttr "Ooze_013_JNT1_parentConstraint1.crz" "Ooze_013_JNT1.rz";
+connectAttr "Ooze_013_JNT1.s" "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT1|Ooze_014_JNT.is"
+		;
+connectAttr "Ooze_014_JNT_parentConstraint1.ctx" "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT1|Ooze_014_JNT.tx"
+		;
+connectAttr "Ooze_014_JNT_parentConstraint1.cty" "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT1|Ooze_014_JNT.ty"
+		;
+connectAttr "Ooze_014_JNT_parentConstraint1.ctz" "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT1|Ooze_014_JNT.tz"
+		;
+connectAttr "Ooze_014_JNT_parentConstraint1.crx" "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT1|Ooze_014_JNT.rx"
+		;
+connectAttr "Ooze_014_JNT_parentConstraint1.cry" "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT1|Ooze_014_JNT.ry"
+		;
+connectAttr "Ooze_014_JNT_parentConstraint1.crz" "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT1|Ooze_014_JNT.rz"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT1|Ooze_014_JNT.s" "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT1|Ooze_014_JNT|Ooze_015_JNT.is"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT1|Ooze_014_JNT.ro" "Ooze_014_JNT_parentConstraint1.cro"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT1|Ooze_014_JNT.pim" "Ooze_014_JNT_parentConstraint1.cpim"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT1|Ooze_014_JNT.rp" "Ooze_014_JNT_parentConstraint1.crp"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT1|Ooze_014_JNT.rpt" "Ooze_014_JNT_parentConstraint1.crt"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT1|Ooze_014_JNT.jo" "Ooze_014_JNT_parentConstraint1.cjo"
+		;
+connectAttr "Ooze_015_CTRL.t" "Ooze_014_JNT_parentConstraint1.tg[0].tt";
+connectAttr "Ooze_015_CTRL.rp" "Ooze_014_JNT_parentConstraint1.tg[0].trp";
+connectAttr "Ooze_015_CTRL.rpt" "Ooze_014_JNT_parentConstraint1.tg[0].trt";
+connectAttr "Ooze_015_CTRL.r" "Ooze_014_JNT_parentConstraint1.tg[0].tr";
+connectAttr "Ooze_015_CTRL.ro" "Ooze_014_JNT_parentConstraint1.tg[0].tro";
+connectAttr "Ooze_015_CTRL.s" "Ooze_014_JNT_parentConstraint1.tg[0].ts";
+connectAttr "Ooze_015_CTRL.pm" "Ooze_014_JNT_parentConstraint1.tg[0].tpm";
+connectAttr "Ooze_014_JNT_parentConstraint1.w0" "Ooze_014_JNT_parentConstraint1.tg[0].tw"
+		;
+connectAttr "Ooze_013_JNT1.ro" "Ooze_013_JNT1_parentConstraint1.cro";
+connectAttr "Ooze_013_JNT1.pim" "Ooze_013_JNT1_parentConstraint1.cpim";
+connectAttr "Ooze_013_JNT1.rp" "Ooze_013_JNT1_parentConstraint1.crp";
+connectAttr "Ooze_013_JNT1.rpt" "Ooze_013_JNT1_parentConstraint1.crt";
+connectAttr "Ooze_013_JNT1.jo" "Ooze_013_JNT1_parentConstraint1.cjo";
+connectAttr "Ooze_014_CTRL.t" "Ooze_013_JNT1_parentConstraint1.tg[0].tt";
+connectAttr "Ooze_014_CTRL.rp" "Ooze_013_JNT1_parentConstraint1.tg[0].trp";
+connectAttr "Ooze_014_CTRL.rpt" "Ooze_013_JNT1_parentConstraint1.tg[0].trt";
+connectAttr "Ooze_014_CTRL.r" "Ooze_013_JNT1_parentConstraint1.tg[0].tr";
+connectAttr "Ooze_014_CTRL.ro" "Ooze_013_JNT1_parentConstraint1.tg[0].tro";
+connectAttr "Ooze_014_CTRL.s" "Ooze_013_JNT1_parentConstraint1.tg[0].ts";
+connectAttr "Ooze_014_CTRL.pm" "Ooze_013_JNT1_parentConstraint1.tg[0].tpm";
+connectAttr "Ooze_013_JNT1_parentConstraint1.w0" "Ooze_013_JNT1_parentConstraint1.tg[0].tw"
+		;
+connectAttr "Ooze_012_JNT.ro" "Ooze_012_JNT_parentConstraint1.cro";
+connectAttr "Ooze_012_JNT.pim" "Ooze_012_JNT_parentConstraint1.cpim";
+connectAttr "Ooze_012_JNT.rp" "Ooze_012_JNT_parentConstraint1.crp";
+connectAttr "Ooze_012_JNT.rpt" "Ooze_012_JNT_parentConstraint1.crt";
+connectAttr "Ooze_012_JNT.jo" "Ooze_012_JNT_parentConstraint1.cjo";
+connectAttr "Ooze_013_CTRL.t" "Ooze_012_JNT_parentConstraint1.tg[0].tt";
+connectAttr "Ooze_013_CTRL.rp" "Ooze_012_JNT_parentConstraint1.tg[0].trp";
+connectAttr "Ooze_013_CTRL.rpt" "Ooze_012_JNT_parentConstraint1.tg[0].trt";
+connectAttr "Ooze_013_CTRL.r" "Ooze_012_JNT_parentConstraint1.tg[0].tr";
+connectAttr "Ooze_013_CTRL.ro" "Ooze_012_JNT_parentConstraint1.tg[0].tro";
+connectAttr "Ooze_013_CTRL.s" "Ooze_012_JNT_parentConstraint1.tg[0].ts";
+connectAttr "Ooze_013_CTRL.pm" "Ooze_012_JNT_parentConstraint1.tg[0].tpm";
+connectAttr "Ooze_012_JNT_parentConstraint1.w0" "Ooze_012_JNT_parentConstraint1.tg[0].tw"
+		;
+connectAttr "Ooze_011_JNT.ro" "Ooze_011_JNT_parentConstraint1.cro";
+connectAttr "Ooze_011_JNT.pim" "Ooze_011_JNT_parentConstraint1.cpim";
+connectAttr "Ooze_011_JNT.rp" "Ooze_011_JNT_parentConstraint1.crp";
+connectAttr "Ooze_011_JNT.rpt" "Ooze_011_JNT_parentConstraint1.crt";
+connectAttr "Ooze_011_JNT.jo" "Ooze_011_JNT_parentConstraint1.cjo";
+connectAttr "Ooze_012_CTRL.t" "Ooze_011_JNT_parentConstraint1.tg[0].tt";
+connectAttr "Ooze_012_CTRL.rp" "Ooze_011_JNT_parentConstraint1.tg[0].trp";
+connectAttr "Ooze_012_CTRL.rpt" "Ooze_011_JNT_parentConstraint1.tg[0].trt";
+connectAttr "Ooze_012_CTRL.r" "Ooze_011_JNT_parentConstraint1.tg[0].tr";
+connectAttr "Ooze_012_CTRL.ro" "Ooze_011_JNT_parentConstraint1.tg[0].tro";
+connectAttr "Ooze_012_CTRL.s" "Ooze_011_JNT_parentConstraint1.tg[0].ts";
+connectAttr "Ooze_012_CTRL.pm" "Ooze_011_JNT_parentConstraint1.tg[0].tpm";
+connectAttr "Ooze_011_JNT_parentConstraint1.w0" "Ooze_011_JNT_parentConstraint1.tg[0].tw"
+		;
+connectAttr "Ooze_010_JNT.ro" "Ooze_010_JNT_parentConstraint1.cro";
+connectAttr "Ooze_010_JNT.pim" "Ooze_010_JNT_parentConstraint1.cpim";
+connectAttr "Ooze_010_JNT.rp" "Ooze_010_JNT_parentConstraint1.crp";
+connectAttr "Ooze_010_JNT.rpt" "Ooze_010_JNT_parentConstraint1.crt";
+connectAttr "Ooze_010_JNT.jo" "Ooze_010_JNT_parentConstraint1.cjo";
+connectAttr "Ooze_011_CTRL.t" "Ooze_010_JNT_parentConstraint1.tg[0].tt";
+connectAttr "Ooze_011_CTRL.rp" "Ooze_010_JNT_parentConstraint1.tg[0].trp";
+connectAttr "Ooze_011_CTRL.rpt" "Ooze_010_JNT_parentConstraint1.tg[0].trt";
+connectAttr "Ooze_011_CTRL.r" "Ooze_010_JNT_parentConstraint1.tg[0].tr";
+connectAttr "Ooze_011_CTRL.ro" "Ooze_010_JNT_parentConstraint1.tg[0].tro";
+connectAttr "Ooze_011_CTRL.s" "Ooze_010_JNT_parentConstraint1.tg[0].ts";
+connectAttr "Ooze_011_CTRL.pm" "Ooze_010_JNT_parentConstraint1.tg[0].tpm";
+connectAttr "Ooze_010_JNT_parentConstraint1.w0" "Ooze_010_JNT_parentConstraint1.tg[0].tw"
+		;
+connectAttr "Ooze_09_JNT.ro" "Ooze_09_JNT_parentConstraint1.cro";
+connectAttr "Ooze_09_JNT.pim" "Ooze_09_JNT_parentConstraint1.cpim";
+connectAttr "Ooze_09_JNT.rp" "Ooze_09_JNT_parentConstraint1.crp";
+connectAttr "Ooze_09_JNT.rpt" "Ooze_09_JNT_parentConstraint1.crt";
+connectAttr "Ooze_09_JNT.jo" "Ooze_09_JNT_parentConstraint1.cjo";
+connectAttr "Ooze_010_CTRL.t" "Ooze_09_JNT_parentConstraint1.tg[0].tt";
+connectAttr "Ooze_010_CTRL.rp" "Ooze_09_JNT_parentConstraint1.tg[0].trp";
+connectAttr "Ooze_010_CTRL.rpt" "Ooze_09_JNT_parentConstraint1.tg[0].trt";
+connectAttr "Ooze_010_CTRL.r" "Ooze_09_JNT_parentConstraint1.tg[0].tr";
+connectAttr "Ooze_010_CTRL.ro" "Ooze_09_JNT_parentConstraint1.tg[0].tro";
+connectAttr "Ooze_010_CTRL.s" "Ooze_09_JNT_parentConstraint1.tg[0].ts";
+connectAttr "Ooze_010_CTRL.pm" "Ooze_09_JNT_parentConstraint1.tg[0].tpm";
+connectAttr "Ooze_09_JNT_parentConstraint1.w0" "Ooze_09_JNT_parentConstraint1.tg[0].tw"
+		;
+connectAttr "Ooze_08_JNT.ro" "Ooze_08_JNT_parentConstraint1.cro";
+connectAttr "Ooze_08_JNT.pim" "Ooze_08_JNT_parentConstraint1.cpim";
+connectAttr "Ooze_08_JNT.rp" "Ooze_08_JNT_parentConstraint1.crp";
+connectAttr "Ooze_08_JNT.rpt" "Ooze_08_JNT_parentConstraint1.crt";
+connectAttr "Ooze_08_JNT.jo" "Ooze_08_JNT_parentConstraint1.cjo";
+connectAttr "Ooze_09_CTRL.t" "Ooze_08_JNT_parentConstraint1.tg[0].tt";
+connectAttr "Ooze_09_CTRL.rp" "Ooze_08_JNT_parentConstraint1.tg[0].trp";
+connectAttr "Ooze_09_CTRL.rpt" "Ooze_08_JNT_parentConstraint1.tg[0].trt";
+connectAttr "Ooze_09_CTRL.r" "Ooze_08_JNT_parentConstraint1.tg[0].tr";
+connectAttr "Ooze_09_CTRL.ro" "Ooze_08_JNT_parentConstraint1.tg[0].tro";
+connectAttr "Ooze_09_CTRL.s" "Ooze_08_JNT_parentConstraint1.tg[0].ts";
+connectAttr "Ooze_09_CTRL.pm" "Ooze_08_JNT_parentConstraint1.tg[0].tpm";
+connectAttr "Ooze_08_JNT_parentConstraint1.w0" "Ooze_08_JNT_parentConstraint1.tg[0].tw"
+		;
+connectAttr "Ooze_07_JNT.ro" "Ooze_07_JNT_parentConstraint1.cro";
+connectAttr "Ooze_07_JNT.pim" "Ooze_07_JNT_parentConstraint1.cpim";
+connectAttr "Ooze_07_JNT.rp" "Ooze_07_JNT_parentConstraint1.crp";
+connectAttr "Ooze_07_JNT.rpt" "Ooze_07_JNT_parentConstraint1.crt";
+connectAttr "Ooze_07_JNT.jo" "Ooze_07_JNT_parentConstraint1.cjo";
+connectAttr "Ooze_08_CTRL.t" "Ooze_07_JNT_parentConstraint1.tg[0].tt";
+connectAttr "Ooze_08_CTRL.rp" "Ooze_07_JNT_parentConstraint1.tg[0].trp";
+connectAttr "Ooze_08_CTRL.rpt" "Ooze_07_JNT_parentConstraint1.tg[0].trt";
+connectAttr "Ooze_08_CTRL.r" "Ooze_07_JNT_parentConstraint1.tg[0].tr";
+connectAttr "Ooze_08_CTRL.ro" "Ooze_07_JNT_parentConstraint1.tg[0].tro";
+connectAttr "Ooze_08_CTRL.s" "Ooze_07_JNT_parentConstraint1.tg[0].ts";
+connectAttr "Ooze_08_CTRL.pm" "Ooze_07_JNT_parentConstraint1.tg[0].tpm";
+connectAttr "Ooze_07_JNT_parentConstraint1.w0" "Ooze_07_JNT_parentConstraint1.tg[0].tw"
+		;
+connectAttr "Ooze_06_JNT.ro" "Ooze_06_JNT_parentConstraint1.cro";
+connectAttr "Ooze_06_JNT.pim" "Ooze_06_JNT_parentConstraint1.cpim";
+connectAttr "Ooze_06_JNT.rp" "Ooze_06_JNT_parentConstraint1.crp";
+connectAttr "Ooze_06_JNT.rpt" "Ooze_06_JNT_parentConstraint1.crt";
+connectAttr "Ooze_06_JNT.jo" "Ooze_06_JNT_parentConstraint1.cjo";
+connectAttr "Ooze_07_CTRL.t" "Ooze_06_JNT_parentConstraint1.tg[0].tt";
+connectAttr "Ooze_07_CTRL.rp" "Ooze_06_JNT_parentConstraint1.tg[0].trp";
+connectAttr "Ooze_07_CTRL.rpt" "Ooze_06_JNT_parentConstraint1.tg[0].trt";
+connectAttr "Ooze_07_CTRL.r" "Ooze_06_JNT_parentConstraint1.tg[0].tr";
+connectAttr "Ooze_07_CTRL.ro" "Ooze_06_JNT_parentConstraint1.tg[0].tro";
+connectAttr "Ooze_07_CTRL.s" "Ooze_06_JNT_parentConstraint1.tg[0].ts";
+connectAttr "Ooze_07_CTRL.pm" "Ooze_06_JNT_parentConstraint1.tg[0].tpm";
+connectAttr "Ooze_06_JNT_parentConstraint1.w0" "Ooze_06_JNT_parentConstraint1.tg[0].tw"
+		;
+connectAttr "Ooze_05_JNT.ro" "Ooze_05_JNT_parentConstraint1.cro";
+connectAttr "Ooze_05_JNT.pim" "Ooze_05_JNT_parentConstraint1.cpim";
+connectAttr "Ooze_05_JNT.rp" "Ooze_05_JNT_parentConstraint1.crp";
+connectAttr "Ooze_05_JNT.rpt" "Ooze_05_JNT_parentConstraint1.crt";
+connectAttr "Ooze_05_JNT.jo" "Ooze_05_JNT_parentConstraint1.cjo";
+connectAttr "Ooze_06_CTRL.t" "Ooze_05_JNT_parentConstraint1.tg[0].tt";
+connectAttr "Ooze_06_CTRL.rp" "Ooze_05_JNT_parentConstraint1.tg[0].trp";
+connectAttr "Ooze_06_CTRL.rpt" "Ooze_05_JNT_parentConstraint1.tg[0].trt";
+connectAttr "Ooze_06_CTRL.r" "Ooze_05_JNT_parentConstraint1.tg[0].tr";
+connectAttr "Ooze_06_CTRL.ro" "Ooze_05_JNT_parentConstraint1.tg[0].tro";
+connectAttr "Ooze_06_CTRL.s" "Ooze_05_JNT_parentConstraint1.tg[0].ts";
+connectAttr "Ooze_06_CTRL.pm" "Ooze_05_JNT_parentConstraint1.tg[0].tpm";
+connectAttr "Ooze_05_JNT_parentConstraint1.w0" "Ooze_05_JNT_parentConstraint1.tg[0].tw"
+		;
+connectAttr "Ooze_04_JNT.ro" "Ooze_04_JNT_parentConstraint1.cro";
+connectAttr "Ooze_04_JNT.pim" "Ooze_04_JNT_parentConstraint1.cpim";
+connectAttr "Ooze_04_JNT.rp" "Ooze_04_JNT_parentConstraint1.crp";
+connectAttr "Ooze_04_JNT.rpt" "Ooze_04_JNT_parentConstraint1.crt";
+connectAttr "Ooze_04_JNT.jo" "Ooze_04_JNT_parentConstraint1.cjo";
+connectAttr "Ooze_05_CTRL.t" "Ooze_04_JNT_parentConstraint1.tg[0].tt";
+connectAttr "Ooze_05_CTRL.rp" "Ooze_04_JNT_parentConstraint1.tg[0].trp";
+connectAttr "Ooze_05_CTRL.rpt" "Ooze_04_JNT_parentConstraint1.tg[0].trt";
+connectAttr "Ooze_05_CTRL.r" "Ooze_04_JNT_parentConstraint1.tg[0].tr";
+connectAttr "Ooze_05_CTRL.ro" "Ooze_04_JNT_parentConstraint1.tg[0].tro";
+connectAttr "Ooze_05_CTRL.s" "Ooze_04_JNT_parentConstraint1.tg[0].ts";
+connectAttr "Ooze_05_CTRL.pm" "Ooze_04_JNT_parentConstraint1.tg[0].tpm";
+connectAttr "Ooze_04_JNT_parentConstraint1.w0" "Ooze_04_JNT_parentConstraint1.tg[0].tw"
+		;
+connectAttr "Ooze_03_JNT.ro" "Ooze_03_JNT_parentConstraint1.cro";
+connectAttr "Ooze_03_JNT.pim" "Ooze_03_JNT_parentConstraint1.cpim";
+connectAttr "Ooze_03_JNT.rp" "Ooze_03_JNT_parentConstraint1.crp";
+connectAttr "Ooze_03_JNT.rpt" "Ooze_03_JNT_parentConstraint1.crt";
+connectAttr "Ooze_03_JNT.jo" "Ooze_03_JNT_parentConstraint1.cjo";
+connectAttr "Ooze_04_CTRL.t" "Ooze_03_JNT_parentConstraint1.tg[0].tt";
+connectAttr "Ooze_04_CTRL.rp" "Ooze_03_JNT_parentConstraint1.tg[0].trp";
+connectAttr "Ooze_04_CTRL.rpt" "Ooze_03_JNT_parentConstraint1.tg[0].trt";
+connectAttr "Ooze_04_CTRL.r" "Ooze_03_JNT_parentConstraint1.tg[0].tr";
+connectAttr "Ooze_04_CTRL.ro" "Ooze_03_JNT_parentConstraint1.tg[0].tro";
+connectAttr "Ooze_04_CTRL.s" "Ooze_03_JNT_parentConstraint1.tg[0].ts";
+connectAttr "Ooze_04_CTRL.pm" "Ooze_03_JNT_parentConstraint1.tg[0].tpm";
+connectAttr "Ooze_03_JNT_parentConstraint1.w0" "Ooze_03_JNT_parentConstraint1.tg[0].tw"
+		;
+connectAttr "Ooze_02_JNT.ro" "Ooze_02_JNT_parentConstraint1.cro";
+connectAttr "Ooze_02_JNT.pim" "Ooze_02_JNT_parentConstraint1.cpim";
+connectAttr "Ooze_02_JNT.rp" "Ooze_02_JNT_parentConstraint1.crp";
+connectAttr "Ooze_02_JNT.rpt" "Ooze_02_JNT_parentConstraint1.crt";
+connectAttr "Ooze_02_JNT.jo" "Ooze_02_JNT_parentConstraint1.cjo";
+connectAttr "Ooze_03_CTRL.t" "Ooze_02_JNT_parentConstraint1.tg[0].tt";
+connectAttr "Ooze_03_CTRL.rp" "Ooze_02_JNT_parentConstraint1.tg[0].trp";
+connectAttr "Ooze_03_CTRL.rpt" "Ooze_02_JNT_parentConstraint1.tg[0].trt";
+connectAttr "Ooze_03_CTRL.r" "Ooze_02_JNT_parentConstraint1.tg[0].tr";
+connectAttr "Ooze_03_CTRL.ro" "Ooze_02_JNT_parentConstraint1.tg[0].tro";
+connectAttr "Ooze_03_CTRL.s" "Ooze_02_JNT_parentConstraint1.tg[0].ts";
+connectAttr "Ooze_03_CTRL.pm" "Ooze_02_JNT_parentConstraint1.tg[0].tpm";
+connectAttr "Ooze_02_JNT_parentConstraint1.w0" "Ooze_02_JNT_parentConstraint1.tg[0].tw"
+		;
+connectAttr "Ooze_01_JNT.ro" "Ooze_01_JNT_parentConstraint1.cro";
+connectAttr "Ooze_01_JNT.pim" "Ooze_01_JNT_parentConstraint1.cpim";
+connectAttr "Ooze_01_JNT.rp" "Ooze_01_JNT_parentConstraint1.crp";
+connectAttr "Ooze_01_JNT.rpt" "Ooze_01_JNT_parentConstraint1.crt";
+connectAttr "Ooze_01_JNT.jo" "Ooze_01_JNT_parentConstraint1.cjo";
+connectAttr "Ooze_02_CTRL.t" "Ooze_01_JNT_parentConstraint1.tg[0].tt";
+connectAttr "Ooze_02_CTRL.rp" "Ooze_01_JNT_parentConstraint1.tg[0].trp";
+connectAttr "Ooze_02_CTRL.rpt" "Ooze_01_JNT_parentConstraint1.tg[0].trt";
+connectAttr "Ooze_02_CTRL.r" "Ooze_01_JNT_parentConstraint1.tg[0].tr";
+connectAttr "Ooze_02_CTRL.ro" "Ooze_01_JNT_parentConstraint1.tg[0].tro";
+connectAttr "Ooze_02_CTRL.s" "Ooze_01_JNT_parentConstraint1.tg[0].ts";
+connectAttr "Ooze_02_CTRL.pm" "Ooze_01_JNT_parentConstraint1.tg[0].tpm";
+connectAttr "Ooze_01_JNT_parentConstraint1.w0" "Ooze_01_JNT_parentConstraint1.tg[0].tw"
+		;
+connectAttr "Root_JNT.ro" "Root_JNT_parentConstraint1.cro";
+connectAttr "Root_JNT.pim" "Root_JNT_parentConstraint1.cpim";
+connectAttr "Root_JNT.rp" "Root_JNT_parentConstraint1.crp";
+connectAttr "Root_JNT.rpt" "Root_JNT_parentConstraint1.crt";
+connectAttr "Root_JNT.jo" "Root_JNT_parentConstraint1.cjo";
+connectAttr "Ooze_01_CTRL.t" "Root_JNT_parentConstraint1.tg[0].tt";
+connectAttr "Ooze_01_CTRL.rp" "Root_JNT_parentConstraint1.tg[0].trp";
+connectAttr "Ooze_01_CTRL.rpt" "Root_JNT_parentConstraint1.tg[0].trt";
+connectAttr "Ooze_01_CTRL.r" "Root_JNT_parentConstraint1.tg[0].tr";
+connectAttr "Ooze_01_CTRL.ro" "Root_JNT_parentConstraint1.tg[0].tro";
+connectAttr "Ooze_01_CTRL.s" "Root_JNT_parentConstraint1.tg[0].ts";
+connectAttr "Ooze_01_CTRL.pm" "Root_JNT_parentConstraint1.tg[0].tpm";
+connectAttr "Root_JNT_parentConstraint1.w0" "Root_JNT_parentConstraint1.tg[0].tw"
+		;
+connectAttr "Control_Layer.di" "Controls.do";
+connectAttr "transformGeometry1.og" "Ooze_01_CTRLShape.cr";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
@@ -4194,8 +5280,10 @@ connectAttr "Ooze_010_JNT.wm" "skinCluster1.ma[10]";
 connectAttr "Ooze_011_JNT.wm" "skinCluster1.ma[11]";
 connectAttr "Ooze_012_JNT.wm" "skinCluster1.ma[12]";
 connectAttr "Ooze_013_JNT.wm" "skinCluster1.ma[13]";
-connectAttr "Ooze_014_JNT.wm" "skinCluster1.ma[14]";
-connectAttr "Ooze_015_JNT.wm" "skinCluster1.ma[15]";
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT.wm" "skinCluster1.ma[14]"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.wm" "skinCluster1.ma[15]"
+		;
 connectAttr "Root_JNT.liw" "skinCluster1.lw[0]";
 connectAttr "Ooze_01_JNT.liw" "skinCluster1.lw[1]";
 connectAttr "Ooze_02_JNT.liw" "skinCluster1.lw[2]";
@@ -4210,8 +5298,10 @@ connectAttr "Ooze_010_JNT.liw" "skinCluster1.lw[10]";
 connectAttr "Ooze_011_JNT.liw" "skinCluster1.lw[11]";
 connectAttr "Ooze_012_JNT.liw" "skinCluster1.lw[12]";
 connectAttr "Ooze_013_JNT.liw" "skinCluster1.lw[13]";
-connectAttr "Ooze_014_JNT.liw" "skinCluster1.lw[14]";
-connectAttr "Ooze_015_JNT.liw" "skinCluster1.lw[15]";
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT.liw" "skinCluster1.lw[14]"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.liw" "skinCluster1.lw[15]"
+		;
 connectAttr "Root_JNT.obcc" "skinCluster1.ifcl[0]";
 connectAttr "Ooze_01_JNT.obcc" "skinCluster1.ifcl[1]";
 connectAttr "Ooze_02_JNT.obcc" "skinCluster1.ifcl[2]";
@@ -4226,9 +5316,12 @@ connectAttr "Ooze_010_JNT.obcc" "skinCluster1.ifcl[10]";
 connectAttr "Ooze_011_JNT.obcc" "skinCluster1.ifcl[11]";
 connectAttr "Ooze_012_JNT.obcc" "skinCluster1.ifcl[12]";
 connectAttr "Ooze_013_JNT.obcc" "skinCluster1.ifcl[13]";
-connectAttr "Ooze_014_JNT.obcc" "skinCluster1.ifcl[14]";
-connectAttr "Ooze_015_JNT.obcc" "skinCluster1.ifcl[15]";
-connectAttr "Ooze_015_JNT.msg" "skinCluster1.ptt";
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT.obcc" "skinCluster1.ifcl[14]"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.obcc" "skinCluster1.ifcl[15]"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.msg" "skinCluster1.ptt"
+		;
 connectAttr "groupParts2.og" "tweak1.ip[0].ig";
 connectAttr "groupId2.id" "tweak1.ip[0].gi";
 connectAttr "skinCluster1GroupId.msg" "skinCluster1Set.gn" -na;
@@ -4257,8 +5350,10 @@ connectAttr "Ooze_010_JNT.msg" "bindPose1.m[12]";
 connectAttr "Ooze_011_JNT.msg" "bindPose1.m[13]";
 connectAttr "Ooze_012_JNT.msg" "bindPose1.m[14]";
 connectAttr "Ooze_013_JNT.msg" "bindPose1.m[15]";
-connectAttr "Ooze_014_JNT.msg" "bindPose1.m[16]";
-connectAttr "Ooze_015_JNT.msg" "bindPose1.m[17]";
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT.msg" "bindPose1.m[16]"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.msg" "bindPose1.m[17]"
+		;
 connectAttr "bindPose1.w" "bindPose1.p[0]";
 connectAttr "bindPose1.m[0]" "bindPose1.p[1]";
 connectAttr "bindPose1.m[1]" "bindPose1.p[2]";
@@ -4291,9 +5386,14 @@ connectAttr "Ooze_010_JNT.bps" "bindPose1.wm[12]";
 connectAttr "Ooze_011_JNT.bps" "bindPose1.wm[13]";
 connectAttr "Ooze_012_JNT.bps" "bindPose1.wm[14]";
 connectAttr "Ooze_013_JNT.bps" "bindPose1.wm[15]";
-connectAttr "Ooze_014_JNT.bps" "bindPose1.wm[16]";
-connectAttr "Ooze_015_JNT.bps" "bindPose1.wm[17]";
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT.bps" "bindPose1.wm[16]"
+		;
+connectAttr "|Ooze_Monster|Joints|Root_JNT|Ooze_01_JNT|Ooze_02_JNT|Ooze_03_JNT|Ooze_04_JNT|Ooze_05_JNT|Ooze_06_JNT|Ooze_07_JNT|Ooze_08_JNT|Ooze_09_JNT|Ooze_010_JNT|Ooze_011_JNT|Ooze_012_JNT|Ooze_013_JNT|Ooze_014_JNT|Ooze_015_JNT.bps" "bindPose1.wm[17]"
+		;
 connectAttr "layerManager.dli[1]" "Joint_Layer.id";
+connectAttr "makeNurbCircle1.oc" "transformGeometry1.ig";
+connectAttr "layerManager.dli[2]" "Geometry_Layer.id";
+connectAttr "layerManager.dli[3]" "Control_Layer.id";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "Ooze_GEOShape.iog" ":initialShadingGroup.dsm" -na;
 // End of Ooze Monster Model.ma
