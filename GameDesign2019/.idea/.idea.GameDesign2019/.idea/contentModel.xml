@@ -110,6 +110,9 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AI.cs" t="Include" />
+          <e p="Animations" t="Include">
+            <e p="CharacterAnim.cs" t="Include" />
+          </e>
           <e p="CameraFollow.cs" t="Include" />
           <e p="MoveCharacterController" t="Include">
             <e p="MoveBase.cs" t="Include" />
