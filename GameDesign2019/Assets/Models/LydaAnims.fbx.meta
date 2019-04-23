@@ -1,0 +1,305 @@
+fileFormatVersion: 2
+guid: 2870c13e3a4517c49aadc9ad130f9f62
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body_Geo
+    100002: Dress_Geo
+    100004: Geometry
+    100006: Hair_Geo
+    100008: //RootNode
+    100010: Clavical_CTRL
+    100012: Clavical_CTRL_GRP
+    100014: Clavical_JNT
+    100016: COG_CTRL
+    100018: COG_CTRL_GRP
+    100020: Controls
+    100022: Head_CTRL
+    100024: Head_CTRL_GRP
+    100026: Head_JNT
+    100028: Hip_JNT
+    100030: Joints
+    100032: Left_Arm_01_CTRL
+    100034: Left_Arm_01_CTRL_GRP
+    100036: Left_Arm_01_JNT
+    100038: Left_Arm_02_CTRL
+    100040: Left_Arm_02_CTRL_GRP
+    100042: Left_Arm_02_JNT
+    100044: Left_Arm_03_CTRL
+    100046: Left_Arm_03_CTRL_GRP
+    100048: Left_Arm_03_JNT
+    100050: Left_Clavical_CTRL
+    100052: Left_Clavical_CTRL_GRP
+    100054: Left_Clavical_JNT
+    100056: Left_Leg_01_CTRL
+    100058: Left_Leg_01_CTRL_GRP
+    100060: Left_Leg_01_JNT
+    100062: Left_Leg_02_CTRL
+    100064: Left_Leg_02_CTRL_GRP
+    100066: Left_Leg_02_JNT
+    100068: Left_Leg_02_JNT1
+    100070: Left_Leg_03_CTRL
+    100072: Left_Leg_03_CTRL_GRP
+    100074: Left_Leg_03_JNT
+    100076: Left_Leg_03_JNT 1
+    100078: Left_Leg_03_JNT1
+    100080: Left_Leg_03_JNT1 1
+    100082: Neck_CTRL
+    100084: Neck_CTRL_GRP
+    100086: Neck_JNT
+    100088: Pelvis_CTRL
+    100090: Pelvis_CTRL_GRP
+    100092: Pelvis_JNT
+    100094: Right_Arm_01_CTRL
+    100096: Right_Arm_01_CTRL_GRP
+    100098: Right_Arm_01_JNT
+    100100: Right_Arm_02_CTRL
+    100102: Right_Arm_02_CTRL_GRP
+    100104: Right_Arm_02_JNT
+    100106: Right_Arm_03_CTRL
+    100108: Right_Arm_03_CTRL_GRP
+    100110: Right_Arm_03_JNT
+    100112: Right_Clavical_CTRL
+    100114: Right_Clavical_CTRL_GRP
+    100116: Right_Clavical_JNT
+    100118: Right_Leg_01_CTRL
+    100120: Right_Leg_01_CTRL_GRP
+    100122: Right_Leg_01_JNT
+    100124: Right_Leg_02_CTRL
+    100126: Right_Leg_02_CTRL_GRP
+    100128: Right_Leg_02_JNT
+    100130: Right_Leg_03_CTRL
+    100132: Right_Leg_03_CTRL_GRP
+    100134: Right_Leg_03_JNT
+    100136: Root_JNT
+    100138: Spine_CTRL
+    100140: Spine_CTRL_GRP
+    100142: Waist_CTRL
+    100144: Waist_CTRL_GRP
+    100146: Waist_JNT
+    400000: Body_Geo
+    400002: Dress_Geo
+    400004: Geometry
+    400006: Hair_Geo
+    400008: //RootNode
+    400010: Clavical_CTRL
+    400012: Clavical_CTRL_GRP
+    400014: Clavical_JNT
+    400016: COG_CTRL
+    400018: COG_CTRL_GRP
+    400020: Controls
+    400022: Head_CTRL
+    400024: Head_CTRL_GRP
+    400026: Head_JNT
+    400028: Hip_JNT
+    400030: Joints
+    400032: Left_Arm_01_CTRL
+    400034: Left_Arm_01_CTRL_GRP
+    400036: Left_Arm_01_JNT
+    400038: Left_Arm_02_CTRL
+    400040: Left_Arm_02_CTRL_GRP
+    400042: Left_Arm_02_JNT
+    400044: Left_Arm_03_CTRL
+    400046: Left_Arm_03_CTRL_GRP
+    400048: Left_Arm_03_JNT
+    400050: Left_Clavical_CTRL
+    400052: Left_Clavical_CTRL_GRP
+    400054: Left_Clavical_JNT
+    400056: Left_Leg_01_CTRL
+    400058: Left_Leg_01_CTRL_GRP
+    400060: Left_Leg_01_JNT
+    400062: Left_Leg_02_CTRL
+    400064: Left_Leg_02_CTRL_GRP
+    400066: Left_Leg_02_JNT
+    400068: Left_Leg_02_JNT1
+    400070: Left_Leg_03_CTRL
+    400072: Left_Leg_03_CTRL_GRP
+    400074: Left_Leg_03_JNT
+    400076: Left_Leg_03_JNT 1
+    400078: Left_Leg_03_JNT1
+    400080: Left_Leg_03_JNT1 1
+    400082: Neck_CTRL
+    400084: Neck_CTRL_GRP
+    400086: Neck_JNT
+    400088: Pelvis_CTRL
+    400090: Pelvis_CTRL_GRP
+    400092: Pelvis_JNT
+    400094: Right_Arm_01_CTRL
+    400096: Right_Arm_01_CTRL_GRP
+    400098: Right_Arm_01_JNT
+    400100: Right_Arm_02_CTRL
+    400102: Right_Arm_02_CTRL_GRP
+    400104: Right_Arm_02_JNT
+    400106: Right_Arm_03_CTRL
+    400108: Right_Arm_03_CTRL_GRP
+    400110: Right_Arm_03_JNT
+    400112: Right_Clavical_CTRL
+    400114: Right_Clavical_CTRL_GRP
+    400116: Right_Clavical_JNT
+    400118: Right_Leg_01_CTRL
+    400120: Right_Leg_01_CTRL_GRP
+    400122: Right_Leg_01_JNT
+    400124: Right_Leg_02_CTRL
+    400126: Right_Leg_02_CTRL_GRP
+    400128: Right_Leg_02_JNT
+    400130: Right_Leg_03_CTRL
+    400132: Right_Leg_03_CTRL_GRP
+    400134: Right_Leg_03_JNT
+    400136: Root_JNT
+    400138: Spine_CTRL
+    400140: Spine_CTRL_GRP
+    400142: Waist_CTRL
+    400144: Waist_CTRL_GRP
+    400146: Waist_JNT
+    2100000: Lyda_Texture
+    2100002: Default_Material
+    2300000: Body_Geo
+    2300002: Dress_Geo
+    2300004: Hair_Geo
+    3300000: Body_Geo
+    3300002: Dress_Geo
+    3300004: Hair_Geo
+    4300000: Hair_Geo
+    4300002: Body_Geo
+    4300004: Dress_Geo
+    9500000: //RootNode
+    13700000: Body_Geo
+    13700002: Dress_Geo
+    13700004: Hair_Geo
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 1
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Geometry
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hair_Geo
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dress_Geo
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: LydaAnims(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Geometry
+      parentName: LydaAnims(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hair_Geo
+      parentName: Geometry
+      position: {x: 0.90571034, y: 7.98991, z: 0.5289331}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.48305336, y: 1.5917331, z: 0.6085641}
+    - name: Body_Geo
+      parentName: Geometry
+      position: {x: -0, y: 2.8661973, z: 0.53820175}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dress_Geo
+      parentName: Geometry
+      position: {x: -0, y: 3.9295986, z: 0.029997926}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
