@@ -9,26 +9,24 @@ public class CharacterAnim : MonoBehaviour
 
    private void Start()
    {
-      anim = GetComponent<Animator>();
-      
+      anim = GetComponent<Animator>();  
    }
-
    private void Update()
-   {
-      if (Input.GetKeyDown(KeyCode.Space))
-      {
+   {  if (Input.GetKeyDown(KeyCode.Space))
+       {
          anim.SetTrigger("Jump");
+       }
+      if (controller.isGrounded == true)
+      {   
+         anim.SetBool("Running", true);
       }
-      
    }
 
    private void OnTriggerEnter(Collider other)
    {
-      if (controller.isTrigger = false)
+      if (controller.isGrounded == false)
       {
          anim.SetBool("Land", true);
       }
-
-      
    }
 }
