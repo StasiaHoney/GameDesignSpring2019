@@ -21,6 +21,22 @@ ModelImporter:
     100030: polyToCurve1
     100032: polyToCurve1 1
     100034: polyToCurve2
+    100036: BearTrap_Geo
+    100038: COG_Ctrl
+    100040: COG_Ctrl_Grp
+    100042: Controls
+    100044: Joints
+    100046: Left
+    100048: Left_Ctrl
+    100050: Left_Ctrl_Grp
+    100052: Left_Side
+    100054: Right
+    100056: Right_Ctrl
+    100058: Right_Ctrl_Grp
+    100060: Right_Side
+    100062: Root
+    100064: Transform_Ctrl
+    100066: Transform_Ctrl_Grp
     400000: //RootNode
     400002: MASH2_ReproMesh
     400004: MASH2_ReproMesh1
@@ -39,6 +55,22 @@ ModelImporter:
     400030: polyToCurve1
     400032: polyToCurve1 1
     400034: polyToCurve2
+    400036: BearTrap_Geo
+    400038: COG_Ctrl
+    400040: COG_Ctrl_Grp
+    400042: Controls
+    400044: Joints
+    400046: Left
+    400048: Left_Ctrl
+    400050: Left_Ctrl_Grp
+    400052: Left_Side
+    400054: Right
+    400056: Right_Ctrl
+    400058: Right_Ctrl_Grp
+    400060: Right_Side
+    400062: Root
+    400064: Transform_Ctrl
+    400066: Transform_Ctrl_Grp
     2100000: BearTrapMinusSpikes
     2100002: Spikes
     2100004: lambert1
@@ -56,6 +88,8 @@ ModelImporter:
     2300022: pCylinder7
     2300024: polySurface2
     2300026: polySurface3
+    2300028: Left_Side
+    2300030: Right_Side
     3300000: MASH2_ReproMesh
     3300002: MASH2_ReproMesh1
     3300004: pCube1
@@ -70,6 +104,8 @@ ModelImporter:
     3300022: pCylinder7
     3300024: polySurface2
     3300026: polySurface3
+    3300028: Left_Side
+    3300030: Right_Side
     4300000: pCylinder1
     4300002: pCube1
     4300004: MASH2_ReproMesh
@@ -84,6 +120,9 @@ ModelImporter:
     4300022: pCylinder2
     4300024: pCylinder6
     4300026: pCylinder7
+    4300028: Right_Side
+    4300030: Left_Side
+    7400000: Take 001
     9500000: //RootNode
   externalObjects: {}
   materials:
