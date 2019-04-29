@@ -13,13 +13,13 @@ public class SlowEnemy : TrapInteract
     {
         if (TrapActivated)
         {
-            agent.speed = enemyKnockBack;
+            TrapEngaged();
         }
 
     }
 
-    private void OnTriggerExit(Collider other)
+    void TrapEngaged()
     {
-        agent.speed = enemySpeed;
+        agent.speed = enemyKnockBack;
     }
 }
