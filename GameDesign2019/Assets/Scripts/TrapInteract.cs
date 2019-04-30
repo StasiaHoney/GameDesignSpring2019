@@ -5,6 +5,7 @@ using UnityEngine;
 public class TrapInteract : MonoBehaviour
 {
     public bool TrapActivated;
+    protected LayerMask Enemy;
     
     private void OnMouseDown()
     {

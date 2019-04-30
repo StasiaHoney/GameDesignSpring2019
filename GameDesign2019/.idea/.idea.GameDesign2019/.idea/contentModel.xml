@@ -158,6 +158,7 @@
           <e p="AI.cs" t="Include" />
           <e p="Animations" t="Include">
             <e p="CharacterAnim.cs" t="Include" />
+            <e p="TrapAnimator.cs" t="Include" />
           </e>
           <e p="CameraFollow.cs" t="Include" />
           <e p="MoveCharacterController" t="Include">
