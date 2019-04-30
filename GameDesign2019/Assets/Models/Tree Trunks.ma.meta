@@ -9,12 +9,20 @@ ModelImporter:
     100006: pCylinder4
     100008: //RootNode
     100010: TreeTrunk
+    100012: SwingingTrap
+    100014: Rope1
+    100016: Rope2
+    100018: SwingingTrap 1
     400000: pCylinder1
     400002: pCylinder2
     400004: pCylinder3
     400006: pCylinder4
     400008: //RootNode
     400010: TreeTrunk
+    400012: SwingingTrap
+    400014: Rope1
+    400016: Rope2
+    400018: SwingingTrap 1
     2100000: Tree1
     2100002: Tree2
     2100004: Rope
@@ -23,16 +31,27 @@ ModelImporter:
     2300004: pCylinder3
     2300006: pCylinder4
     2300008: TreeTrunk
+    2300010: SwingingTrap
+    2300012: Rope1
+    2300014: Rope2
+    2300016: SwingingTrap 1
     3300000: pCylinder1
     3300002: pCylinder2
     3300004: pCylinder3
     3300006: pCylinder4
     3300008: TreeTrunk
+    3300010: SwingingTrap
+    3300012: Rope1
+    3300014: Rope2
+    3300016: SwingingTrap 1
     4300000: TreeTrunk
     4300002: pCylinder1
     4300004: pCylinder3
     4300006: pCylinder2
     4300008: pCylinder4
+    4300010: SwingingTrap
+    4300012: Rope1
+    4300014: Rope2
   externalObjects: {}
   materials:
     importMaterials: 1

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\kosuk\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\kosuk\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_GameDesign2019.1274337038.00" t="ExcludeRecursive" />
-    <e p="C:\Users\kosuk\OneDrive\Documents\College\GameDesignSpring2019\GameDesign2019" t="IncludeRecursive">
+    <e p="C:\Users\10820534\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\10820534\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_GameDesign2019.981585061.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10820534\Documents\GameDesignSpring2019\GameDesign2019" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Ludiq" t="Include">
@@ -155,13 +155,19 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="AI.cs" t="Include" />
+          <e p="AI" t="Include">
+            <e p="AI.cs" t="Include" />
+          </e>
           <e p="Animations" t="Include">
             <e p="CharacterAnim.cs" t="Include" />
             <e p="TrapAnimator.cs" t="Include" />
           </e>
-          <e p="CameraFollow.cs" t="Include" />
+          <e p="Enemy" t="Include">
+            <e p="DeathVolume.cs" t="Include" />
+            <e p="RestartScene.cs" t="Include" />
+          </e>
           <e p="MoveCharacterController" t="Include">
+            <e p="CameraFollow.cs" t="Include" />
             <e p="MoveBase.cs" t="Include" />
             <e p="MoveCharacter.cs" t="Include" />
             <e p="MoveWithAxis.cs" t="Include" />
@@ -178,10 +184,14 @@
             <e p="MoveCharacterWithRigid.cs" t="Include" />
             <e p="MoveContinuous.cs" t="Include" />
           </e>
-          <e p="Projectile.cs" t="Include" />
-          <e p="SlowEnemy.cs" t="Include" />
-          <e p="TrapInteract.cs" t="Include" />
-          <e p="Weapon.cs" t="Include" />
+          <e p="Weapon" t="Include">
+            <e p="Projectile.cs" t="Include" />
+            <e p="RotateAroundPivot.cs" t="Include" />
+            <e p="SlowEnemy.cs" t="Include" />
+            <e p="TranslateDown.cs" t="Include" />
+            <e p="TrapInteract.cs" t="Include" />
+            <e p="Weapon.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="GameDesign2019.sln" t="IncludeFlat" />

@@ -33,8 +33,11 @@ ModelImporter:
     400026: //RootNode
     2100000: lambert1
     2300000: pCylinder7
+    2300002: //RootNode
     3300000: pCylinder7
+    3300002: //RootNode
     4300000: pCylinder7
+    4300002: BubbleTree
   externalObjects: {}
   materials:
     importMaterials: 1
