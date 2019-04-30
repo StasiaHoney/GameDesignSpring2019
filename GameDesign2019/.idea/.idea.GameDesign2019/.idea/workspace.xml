@@ -56,12 +56,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2965" />
+          <entry key="cs" value="3633" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2965" />
+          <entry key="C#" value="3633" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -112,10 +112,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Weapon/SlowEnemy.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+            <state relative-caret-position="195">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="46" />
               <folding>
-                <marker date="1556635791236" expanded="false" signature="6:135" ph="..." />
+                <marker date="1556635791236" expanded="true" signature="6:135" ph="..." />
                 <marker date="1556635791236" expanded="true" signature="174:1254" ph="{...}" />
                 <marker date="1556635791236" expanded="true" signature="401:535" ph="{...}" />
                 <marker date="1556635791236" expanded="true" signature="434:529" ph="{...}" />
@@ -131,13 +131,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Weapon/RotateAroundPivot.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
-                <marker date="1556639048456" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556639048456" expanded="true" signature="125:379" ph="{...}" />
-                <marker date="1556639048456" expanded="true" signature="239:377" ph="{...}" />
-                <marker date="1556639048456" expanded="true" signature="272:371" ph="{...}" />
+                <marker date="1556643970747" expanded="true" signature="6:113" ph="..." />
+                <marker date="1556643970747" expanded="true" signature="160:609" ph="{...}" />
+                <marker date="1556643970747" expanded="true" signature="309:607" ph="{...}" />
+                <marker date="1556643970747" expanded="true" signature="342:450" ph="{...}" />
+                <marker date="1556643970747" expanded="true" signature="482:601" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -254,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="35" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
@@ -320,12 +321,12 @@
       <workItem from="1556047440005" duration="3525000" />
       <workItem from="1556221197750" duration="3886000" />
       <workItem from="1556630096757" duration="3758000" />
-      <workItem from="1556634841946" duration="2940000" />
+      <workItem from="1556634841946" duration="5220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22420000" />
+    <option name="totallyTimeSpent" value="24700000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -511,10 +512,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Weapon/SlowEnemy.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="195">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="46" />
           <folding>
-            <marker date="1556635791236" expanded="false" signature="6:135" ph="..." />
+            <marker date="1556635791236" expanded="true" signature="6:135" ph="..." />
             <marker date="1556635791236" expanded="true" signature="174:1254" ph="{...}" />
             <marker date="1556635791236" expanded="true" signature="401:535" ph="{...}" />
             <marker date="1556635791236" expanded="true" signature="434:529" ph="{...}" />
@@ -528,13 +529,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Weapon/RotateAroundPivot.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <marker date="1556639048456" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556639048456" expanded="true" signature="125:379" ph="{...}" />
-            <marker date="1556639048456" expanded="true" signature="239:377" ph="{...}" />
-            <marker date="1556639048456" expanded="true" signature="272:371" ph="{...}" />
+            <marker date="1556643970747" expanded="true" signature="6:113" ph="..." />
+            <marker date="1556643970747" expanded="true" signature="160:609" ph="{...}" />
+            <marker date="1556643970747" expanded="true" signature="309:607" ph="{...}" />
+            <marker date="1556643970747" expanded="true" signature="342:450" ph="{...}" />
+            <marker date="1556643970747" expanded="true" signature="482:601" ph="{...}" />
           </folding>
         </state>
       </provider>
