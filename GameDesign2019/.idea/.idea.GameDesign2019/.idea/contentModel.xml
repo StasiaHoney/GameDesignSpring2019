@@ -193,6 +193,9 @@
             <e p="Weapon.cs" t="Include" />
           </e>
         </e>
+        <e p="UrbanNightSky" t="Include">
+          <e p="Readme.txt" t="Include" />
+        </e>
       </e>
       <e p="GameDesign2019.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
