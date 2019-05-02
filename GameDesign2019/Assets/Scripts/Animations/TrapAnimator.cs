@@ -5,8 +5,7 @@ using UnityEngine.AI;
 
 public class TrapAnimator : TrapInteract
 {
-    private Animator anim;
-
+    public Animator anim;
 
     private void Start()
     {
@@ -16,7 +15,7 @@ public class TrapAnimator : TrapInteract
     private void Update()
     {
         if (TrapActivated)
-        {    Debug.Log("Activated");
+        {   
             anim.SetBool("TrapActivated", true);
         }
     }
@@ -24,7 +23,7 @@ public class TrapAnimator : TrapInteract
     private void OnTriggerEnter()
     {
         if (TrapActivated)
-        {    Debug.Log("Engaged");
+        {   
             Enemy = LayerMask.GetMask("Enemy");
             anim.SetBool("TrapEngaged", true);
         }

@@ -20,6 +20,7 @@ public class OpenTrap : TrapInteract
 
     private void TrapOpened()
     {
+        new WaitForSeconds(.1f);
         trap.transform.Rotate(downForce);
     }
 }

@@ -8,7 +8,7 @@ public class TrapInteract : MonoBehaviour
     protected LayerMask Enemy;
     
     private void OnMouseDown()
-    {
-        TrapActivated = true;
-    }
+        {
+            TrapActivated = true;
+        }
 }

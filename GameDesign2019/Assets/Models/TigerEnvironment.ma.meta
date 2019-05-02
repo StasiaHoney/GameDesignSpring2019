@@ -5380,7 +5380,32 @@ ModelImporter:
     4302140: rock5
     4302142: Rock8
     4302144: DeadTree
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rock1Texture
+    second: {fileID: 2100000, guid: ba6c25a379acb7b48ae067fc07f48928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rock3Texture
+    second: {fileID: 2100000, guid: ba6c25a379acb7b48ae067fc07f48928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rock4Texture
+    second: {fileID: 2100000, guid: ba6c25a379acb7b48ae067fc07f48928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RockBenchTexture
+    second: {fileID: 2100000, guid: ba6c25a379acb7b48ae067fc07f48928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TreeTexture1
+    second: {fileID: 2100000, guid: e35412d5e283e1e479fa04e8b355d3d2, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
