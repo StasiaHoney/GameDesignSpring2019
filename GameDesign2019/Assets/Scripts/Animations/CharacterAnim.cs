@@ -16,17 +16,21 @@ public class CharacterAnim : MonoBehaviour
        {
          anim.SetTrigger("Jump");
        }
-      if (controller.isGrounded == true)
-      {   
-         anim.SetBool("Running", true);
-      }
-   }
-
-   private void OnTriggerEnter(Collider other)
-   {
+      
       if (controller.isGrounded == false)
       {
          anim.SetBool("Land", true);
       }
+      
+      if (controller.isGrounded == true)
+      {   
+         anim.SetBool("Running", true);
+      }
+      
+   }
+
+   private void OnTriggerEnter(Collider other)
+   {
+      
    }
 }

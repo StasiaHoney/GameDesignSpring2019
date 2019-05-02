@@ -8,7 +8,7 @@ using UnityEngine.AI;
 public class SlowEnemy : TrapInteract
 {
     public NavMeshAgent agent;
-    public float enemySpeed = 22f;
+    public float enemySpeed = 25f;
     public float enemyKnockBack = 3f;
 
     private DateTime trapEngagedTime;
